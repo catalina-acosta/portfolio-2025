@@ -7,3 +7,66 @@ $light-grey: #262E341F;
 $red: #E44C36;
 $green: #97E163;
 
+@font-face {
+    font-family: 'Anta';
+    src: url('../public/assets/fonts/Anta/Anta-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../public/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: $dark-grey;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: $white;
+}
+
+.font-anta {
+    font-family: 'Anta', sans-serif;
+}
+
+.font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    color: $white;
+    font-size: 88px;
+    font-weight: 400;
+    font-family: 'Anta', sans-serif;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Anta', sans-serif;
+    color: $light-blue;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    color: $white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+// img[src$="./assets/graphics/hero/Bg shape for Photo.svg"] {
+//     fill: red; /* Change this to your desired color */
+// }
