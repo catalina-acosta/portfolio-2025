@@ -1,0 +1,56 @@
+@use '../../../styles.scss';
+
+header {
+    height: 104px;
+    width: 100%;
+    background-color: styles.$light-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    max-width: 1214px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .nav-links {
+        display: flex;
+        gap: 32px;
+    }
+    a {
+        text-decoration: none;
+        color: styles.$dark-grey;
+        font-size: 26px;
+        font-weight: 500;
+    }
+}
+
+.language {
+    a {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 4px;
+    }
+}
+
+.mobile-nav {
+
+}
+
+@media screen and (max-width: 560px) {
+    header {
+        background-color: styles.$dark-grey;
+        width: 100%;
+    }
+    .nav-wrapper {
+        display: none; 
+    }
+
+    .closed-menu {
+        display: flex;
+        align-items: flex-start;
+    }
+}
