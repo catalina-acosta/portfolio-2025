@@ -67,6 +67,11 @@ a {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-// img[src$="./assets/graphics/hero/Bg shape for Photo.svg"] {
-//     fill: red; /* Change this to your desired color */
-// }
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.container {
+    max-width: 1280px;
+}

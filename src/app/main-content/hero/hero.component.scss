@@ -1,8 +1,58 @@
-.container {
-    max-width: 1280px;
-    display: flex                   ;
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .hero-text{
+        text-align: center;
+        
+        button {
+            margin-top: 6rem;
+        }
+    }
 }
+
+.img-container {
+    display: flex;
+    align-items: flex-end;
+
+    .img-default {
+        transition: transform 800ms ease-in, opacity 1s ease-in;
+        height: 625px;
+        width: 600px;
+        
+        &:hover {
+            transform: rotate(-7deg);
+            opacity: 1;
+        }
+    }
+
+}
+
+
+.container {
+    max-width: 1214px;
+    height: 685px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 79px;
+}
+
+.socials {
+    height: 100%;
+
+    .socials-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
 
 .hero-photo {
     width: 500px;
+    position: absolute;
 }
+
