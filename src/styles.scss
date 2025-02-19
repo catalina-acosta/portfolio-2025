@@ -48,6 +48,7 @@ h2 {
     font-weight: 400;
     font-family: 'Anta', sans-serif;
     color: $light-blue;
+    margin-bottom: 86px;
 }
 
 h3 {
@@ -96,10 +97,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 102px 0;
 }
 
 .small-content-wrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 860px;
 }
 
