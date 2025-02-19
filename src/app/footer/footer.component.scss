@@ -1,0 +1,65 @@
+@use '../../styles.scss';
+
+.footer {
+    width: 100%;
+    height: 214px;
+    background-color: styles.$light-blue;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-mobile-wrapper {
+    display: none;
+}
+
+.footer-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 1214px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        margin-bottom: 8px;
+        color: styles.$dark-grey;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .footer {
+        height: 243px;
+    }
+
+    .footer-wrapper {
+        display: none;
+    }
+
+    .footer-mobile-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo {
+            width: 66px;
+        }
+
+        .socials {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+
+        .legal-text {
+            display: flex;
+            flex-direction: row;
+            gap: 18px;
+
+            p {
+                font-size: 14px;
+                color: styles.$dark-grey;
+            }
+        }
+    }
+}
