@@ -1,1 +1,29 @@
 @use '../../../styles.scss';
+
+.skills-wrapper {
+    display: flex;
+    width: 100%;
+}
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    .skill-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:4px;
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: styles.$light-blue;
+        }
+    }
+
+}
+
+.current-learning {
+    width: 50%;
+}

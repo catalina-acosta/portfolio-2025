@@ -1,9 +1,16 @@
 <div class="skills content-box">
     <section class="small-content-wrapper">
         <h2>My Skills</h2>
-        <div >
+        <div class="skills-wrapper">
             <div class="tech-stack">
-                <img src="./assets/graphics/skill-icons/Angular.svg" alt="">
+                @for(skill of skillsList; track $index) {
+                    <div class="skill-box">
+                        <div class="img-wrapper">
+                            <img src="{{skill.imgPath}}" alt="">
+                        </div>
+                        <p>{{skill.name}}</p>
+                    </div>
+                }
             </div>
             <div class="current-learning">
                 <p>I am currently learning</p>
