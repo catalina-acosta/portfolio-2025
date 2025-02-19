@@ -13,7 +13,7 @@ header {
     max-width: 1214px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     
     .nav-links {
@@ -25,6 +25,14 @@ header {
         color: styles.$dark-grey;
         font-size: 26px;
         font-weight: 500;
+
+        &:hover {
+            color: styles.$white;
+        }
+
+        &:focus {
+            background-image: url('/assets/graphics/navbar/Ellipse 24.svg');
+        }
     }
 }
 
@@ -36,8 +44,12 @@ header {
     }
 }
 
-.mobile-nav {
+.closed-menu {
+    display: none;
+}
 
+.menu-overlay {
+    display: none;
 }
 
 @media screen and (max-width: 560px) {
@@ -50,7 +62,57 @@ header {
     }
 
     .closed-menu {
+        position: absolute;
+        top: 0;
         display: flex;
         align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 18px;
+    }
+    
+    .menu-overlay {
+        position: absolute;
+        top: 8rem;
+        flex-direction: column;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        height: 18rem;
+
+        img {
+            position: absolute;
+        }
+        .navlinks-mobile {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+
+            a {
+                color: styles.$dark-grey;
+                font-size: 22px;
+                font-weight: 400;
+            }
+        }
+
+        .language {
+            padding: 4px;
+
+            a {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu-overlay {
+        img {
+            width: 280px;
+        }
     }
 }
