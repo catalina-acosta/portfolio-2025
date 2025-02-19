@@ -6,17 +6,29 @@
         </div>
         <img class="logo" src=".\assets\graphics\logo\Property 1=Default (1).svg" alt="">
         <div class="socials">
-            <img src=".\assets\icons\email\Property 1=white.svg" alt="">
-            <img src=".\assets\icons\github\Property 1=white.svg" alt="">
-            <img src=".\assets\icons\linkedin\Property 1=white.svg" alt="">
+            <a href="">
+                <img src=".\assets\icons\email\Property 1=white.svg" alt=""
+                (mouseenter)="onMouseEnter('email')" (mouseleave)="onMouseLeave('email')"
+                [src]="hoveredIcon === 'email' ? './assets/icons/email/Property 1=white.svg' : './assets/icons/email/Property 1=dark.svg'">
+            </a>
+            <a href="">
+                <img src=".\assets\icons\github\Property 1=white.svg" alt=""
+                (mouseenter)="onMouseEnter('github')" (mouseleave)="onMouseLeave('github')"
+                [src]="hoveredIcon === 'github' ? './assets/icons/email/Property 1=white.svg' : './assets/icons/email/Property 1=dark.svg'">
+            </a>
+            <a href="">
+                <img src=".\assets\icons\linkedin\Property 1=white.svg" alt=""
+                (mouseenter)="onMouseEnter('linkedin')" (mouseleave)="onMouseLeave('linkedin')"
+                [src]="hoveredIcon === 'linkedin' ? './assets/icons/linkedin/Property 1=white.svg' : './assets/icons/linkedin/Property 1=dark.svg'">
+            </a>
         </div>
     </div>
     <div class="footer-mobile-wrapper">
         <img class="logo" src=".\assets\graphics\logo\Property 1=Default (1).svg" alt="">
         <div class="socials">
-            <img src=".\assets\icons\email\Property 1=white.svg" alt="">
-            <img src=".\assets\icons\github\Property 1=white.svg" alt="">
-            <img src=".\assets\icons\linkedin\Property 1=white.svg" alt="">
+            <a href=""><img src=".\assets\icons\email\Property 1=white.svg" alt=""></a>
+            <a href=""><img src=".\assets\icons\github\Property 1=white.svg" alt=""></a>
+            <a href=""><img src=".\assets\icons\linkedin\Property 1=white.svg" alt=""></a>
         </div>
         <div class="legal-text">
             <p>Legal notice</p>

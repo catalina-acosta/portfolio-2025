@@ -24,6 +24,12 @@
         margin-bottom: 8px;
         color: styles.$dark-grey;
     }
+
+    .socials {
+        img {
+            padding: 8px;
+        }
+    }
 }
 
 @media screen and (max-width: 560px) {
