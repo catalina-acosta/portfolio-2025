@@ -1,7 +1,8 @@
 <div class="hero">
     <div class="container">
-        <div class="img-container">
-            <img class="img-default" src=".\assets\graphics\hero\Bg shape for Photo.svg" alt="Default Image">
+        <div class="img-container" (mouseenter)="isHovered(true)" (mouseleave)="isHovered(false)">
+            <img class="img-default" src=".\assets\graphics\hero\Bg shape for Photo.svg" alt="Default Image"
+            [src]="this.hovered ? './assets/graphics/hero/Property 1=hover.svg': '/assets/graphics/hero/Bg shape for Photo.svg'">
             <img class="img-default-mobile" src=".\assets\graphics\mobile\Ellipse 35.svg" alt="Default Image">
             <img class="hero-photo" src=".\assets\img\catalina_acosta_r.png" alt="">
         </div>

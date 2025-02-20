@@ -5,5 +5,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .about-info {
+        display: flex;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .highlight {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        p {
+            width: 50%;
+        }
+    }
 }
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 

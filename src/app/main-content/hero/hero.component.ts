@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './hero.component.scss'
 })
 export class HeroComponent {
-
+  hovered: boolean = false;
+  isHovered(hoverStatus: boolean) {
+    this.hovered = hoverStatus;
+    console.log(hoverStatus);
+  }
 }

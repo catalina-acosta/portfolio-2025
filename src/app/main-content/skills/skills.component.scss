@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    width: 56%;
 
     .skill-box {
         display: flex;
@@ -19,11 +20,37 @@
             font-size: 18px;
             font-weight: 400;
             color: styles.$light-blue;
+            max-width: 300px;
         }
     }
 
 }
 
 .current-learning {
-    width: 50%;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .new-skills-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    img {
+        position: absolute;
+        z-index: 2;
+    }
 }
