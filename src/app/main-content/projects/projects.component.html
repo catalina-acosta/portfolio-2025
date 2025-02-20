@@ -3,13 +3,12 @@
         <h2>My Projects</h2>
         <div class="project-menu">
             @for (project of projectList; track $index){
-                <a href="">{{$index + 1}}.{{project.title}}</a>
+                <button href="" (click)="setCurrentProject($index)">{{$index + 1}}.{{project.title}}</button>
             }
         </div>
         <div class="project-display">
-            @for (project of projectList; track $index){
-                <div class="project-info" id="projectNumber{{$index}}">
-                    @for (item of project.contentPs; track $index){
+                <div class="project-info" id="projectNumber{{this.currentProject}}">
+                    @for (item of projectList[this.currentProject].contentPs; track $index){
                         <img src="./assets/graphics/projects/Ellipse 8.svg" alt="">
                         <div class="project-details">
                             <h5>{{item.sectionTitle}}</h5>
@@ -18,14 +17,13 @@
                     }
                     <div class="project-details">
                         <p>Technologies</p>
-                        <img src="{{project.img}}" alt="">
+                        <img src="{{projectList[this.currentProject].img}}" alt="">
                         <div class="button-wrapper">
                             <button class="btn-primary">Live Test</button>
                             <button class="btn-secondary">GitHub</button>
                         </div>
                     </div>
                 </div>
-            }
         </div>
     </section>
 </div>

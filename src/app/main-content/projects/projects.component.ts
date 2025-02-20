@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
+  currentProject: number = 0;
   projectList:{
     title: string; 
     contentPs: { sectionTitle: string; text: string}[];
@@ -97,5 +98,8 @@ export class ProjectsComponent {
                     ],
       img: "./assets/graphics/projects/Join.png"
     },
-  ]
+  ];
+  setCurrentProject(index: number) {
+    this.currentProject = index;
+  }
 }
