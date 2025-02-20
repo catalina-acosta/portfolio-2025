@@ -9,13 +9,13 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projectList:{
     title: string; 
-    content: { sectionTitle: string; text: string}[];
+    contentPs: { sectionTitle: string; text: string}[];
     technologies: string[];
     img: string;
   }[] = [
     {
       title: "Join",
-      content: [
+      contentPs: [
         {
           sectionTitle: "About the project",
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
@@ -36,7 +36,7 @@ export class ProjectsComponent {
     },
     {
       title: "Sharkie ",
-      content: [
+      contentPs: [
         {
           sectionTitle: "About the project",          
           text: "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
@@ -57,7 +57,7 @@ export class ProjectsComponent {
     },
     {
       title: "Join",
-      content: [
+      contentPs: [
         {
           sectionTitle: "About the project",
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
@@ -78,7 +78,7 @@ export class ProjectsComponent {
     },
     {
       title: "Join",
-      content: [
+      contentPs: [
         {
           sectionTitle: "About the project",
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
