@@ -1,3 +1,43 @@
+@use '../../../styles.scss';
+
+.content-box {
+    flex-direction: column;
+}
+
+.large-container {
+    width: 1199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-menu {
+    width: 100%;
+
+    .project-menu-box {
+        display: flex;
+        
+        .project-menu-btn {
+            padding: 36px;
+            border: none;
+            font-size: 30px;
+        }
+
+        .project-menu-btn-focus {
+            background-color: styles.$projects-grey;
+            padding: 36px;
+            border: none;
+            font-size: 30px;
+            border-radius: 30px 30px 0 0;
+        }
+    }
+}
+
+.project-display {
+    background-color: styles.$projects-grey;
+    width: 100%;
+}
+
 .img-container {
     width: 454px;
     height: 312px;

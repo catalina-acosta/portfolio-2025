@@ -1,29 +1,33 @@
-<div class="projects">
-    <section>
+<div class="projects content-box">
+    <section class="large-container">
         <h2>My Projects</h2>
         <div class="project-menu">
-            @for (project of projectList; track $index){
-                <button href="" (click)="setCurrentProject($index)">{{$index + 1}}.{{project.title}}</button>
-            }
-        </div>
-        <div class="project-display">
-                <div class="project-info" id="projectNumber{{this.currentProject}}">
-                    @for (item of projectList[this.currentProject].contentPs; track $index){
-                        <img src="./assets/graphics/projects/Ellipse 8.svg" alt="">
-                        <div class="project-details">
-                            <h5>{{item.sectionTitle}}</h5>
-                            <p>{{item.text}}</p>
-                        </div>
-                    }
-                    <div class="project-details">
-                        <p>Technologies</p>
-                        <img src="{{projectList[this.currentProject].img}}" alt="">
-                        <div class="button-wrapper">
-                            <button class="btn-primary">Live Test</button>
-                            <button class="btn-secondary">GitHub</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="project-menu-box">
+                @for (project of projectList; track $index){
+                        <button [ngClass]="{'project-menu-btn-focus': currentProject === $index, 'project-menu-btn': currentProject!== $index}" (click)="setCurrentProject($index)">{{$index + 1}}. {{project.title}}</button>
+                }
+            </div>
         </div>
     </section>
+    <div class="project-display large-container">
+        <div class="project-display-container">
+            <div class="project-info" id="projectNumber{{this.currentProject}}">
+                @for (item of projectList[this.currentProject].contentPs; track $index){
+                    <img src="./assets/graphics/projects/Ellipse 8.svg" alt="">
+                    <div class="project-details">
+                        <h5>{{item.sectionTitle}}</h5>
+                        <p>{{item.text}}</p>
+                    </div>
+                }
+                <div class="project-details">
+                    <p>Technologies</p>
+                    <img src="{{projectList[this.currentProject].img}}" alt="">
+                    <div class="button-wrapper">
+                        <button class="btn-primary">Live Test</button>
+                        <button class="btn-secondary">GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
