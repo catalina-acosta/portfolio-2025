@@ -38,9 +38,51 @@
     width: 100%;
 }
 
-.img-container {
-    width: 454px;
-    height: 312px;
-    background-color: white;
-    border-radius: 12px;
+.project-display-box {
+    max-width: 1199px;
+    display: flex;
+    padding: 24px 0;
+    gap: 48px;
+
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .details-box {
+            display: flex;
+            gap: 12px;
+        }
+
+        h5 {
+            font-weight: 400;
+        }
+    }
+
 }
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center; 
+
+    .tech-icons {
+        img {
+            padding: 0 12px
+        }
+    }
+
+    .button-wrapper {
+        button {
+            margin: 0 24px;
+        }
+    }
+}
+
+// .img-container {
+//     width: 454px;
+//     height: 312px;
+//     background-color: white;
+//     border-radius: 12px;
+// }
