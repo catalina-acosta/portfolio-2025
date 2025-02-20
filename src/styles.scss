@@ -4,6 +4,7 @@ $light-blue: #89BCD9;
 $salmon: #F28A62;
 $dark-grey: #042639;
 $light-grey: #262E341F;
+$hover-grey: #F8F5EC1F;
 $red: #E44C36;
 $green: #97E163;
 
@@ -88,8 +89,38 @@ a {
 button {
     background-color: transparent;
     border: 1px solid $light-blue;
-    padding: 13px 30px;
     border-radius: 30px;
+    font-size: 18px;
+    color: $light-blue;
+    font-family: 'Josefin Sans', sans-serif;
+    &:hover {
+        scale: 1.05;
+        cursor: pointer;
+    }
+}
+
+.btn-secondary {
+    padding: 13px 30px; 
+    &:hover {
+        background-color: $hover-grey;
+    }
+}
+
+.btn-primary {
+    padding: 13px 30px; 
+    border: none;
+    background-color: $light-blue;
+    color: $dark-grey;
+    &:hover {
+        background-color: $white;
+    }
+}
+
+.arrow-btn {
+    padding: 20px 8px;
+    &:hover {
+        background-color: $hover-grey;
+    }
 }
 
 .content-box {
