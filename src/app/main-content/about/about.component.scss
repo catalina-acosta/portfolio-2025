@@ -10,16 +10,16 @@
         display: flex;
         gap: 24px;
         width: 100%;
+        p {
+            width: 50%;
+        }
     }
 
     .highlight {
         display: flex;
         align-items: center;
         gap: 24px;
-
-        p {
-            width: 50%;
-        }
+        width: 50%;
     }
 }
 

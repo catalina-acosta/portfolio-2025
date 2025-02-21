@@ -38,26 +38,24 @@ form {
             display: flex;
             align-items: center;
         }
+    }
+}
 
-        .btn-wrapper {
-            width: 100%;
-            display: flex;
-            align-items: center;
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
 
-            input[type=submit] {
-                background-color: transparent;
-                border: 1px solid styles.$light-blue;
-                border-radius: 30px;
-                font-size: 18px;
-                color: styles.$light-blue;
-                font-family: 'Josefin Sans', sans-serif;
-                &:hover {
-                    scale: 1.05;
-                    cursor: pointer;
-                }
-            }
+    .btn-submit {
+        background-color: transparent;
+        border: 1px solid styles.$light-blue;
+        border-radius: 30px;
+        font-size: 18px;
+        color: styles.$light-blue;
+        font-family: 'Josefin Sans', sans-serif;
+        &:hover {
+            scale: 1.05;
+            cursor: pointer;
         }
-
-
     }
 }
