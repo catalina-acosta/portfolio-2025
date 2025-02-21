@@ -1,6 +1,6 @@
 @use '../../../styles.scss';
 
-.hero {
+#hero {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@
 .img-container {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 
     .img-default-mobile {
         display: none;
