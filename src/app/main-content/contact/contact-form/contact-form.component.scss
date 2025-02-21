@@ -1,0 +1,63 @@
+@use '../../../../styles.scss' as styles;
+
+form {
+    label {
+        font-size: 14px;
+        font-family: 'Josefin Sans';
+        color: styles.$light-blue;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    
+    .email-name-wrapper {
+        display: flex;
+        margin-bottom: 24px;
+        gap: 24px;
+
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+
+        input[type=text], input[type=email], textarea {
+            background-color: transparent;
+            border: 1px solid styles.$light-blue;
+            border-radius: 30px;
+            width: 445px;
+            height: 60px;
+            resize: vertical;
+            padding: 0 18px;
+        }
+
+        textarea {
+            height: 164px;
+            width: 100%;
+        }
+
+        .privacy-p-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-wrapper {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            input[type=submit] {
+                background-color: transparent;
+                border: 1px solid styles.$light-blue;
+                border-radius: 30px;
+                font-size: 18px;
+                color: styles.$light-blue;
+                font-family: 'Josefin Sans', sans-serif;
+                &:hover {
+                    scale: 1.05;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+    }
+}

@@ -25,27 +25,3 @@
         }
     }
 }
-
-form {
-
-    label {
-        font-size: 14px;
-        font-family: 'Josefin Sans';
-        color: styles.$light-blue;
-        font-weight: 400;
-        margin-left: 20px;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        input {
-            background-color: transparent;
-            border: 1px solid lightblue;
-            border-radius: 30px;
-            width: 445px;
-            height: 60px;
-        }
-    }
-
-}
