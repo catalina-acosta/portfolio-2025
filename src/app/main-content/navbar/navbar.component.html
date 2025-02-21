@@ -1,23 +1,24 @@
 <header>
     <nav>
-        <div class="closed-menu">
+        <div class="closed-menu" (click)="toggleMenu()" >
             <img src="./assets/graphics/mobile/Logo mob.svg" alt="">
             <img src="./assets/graphics/mobile/burger-menu.svg" alt="">
         </div>
-        <div class="menu-overlay">
-            <img src="./assets/graphics/mobile/Overlay.svg" alt="">
-            <div class="navlinks-mobile">
-                <a href="#about">Why me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-                <div class="language">
-                    <a href="">DE</a>
-                    <a href="">EN</a>
+        @if (isclicked) {
+            <div class="menu-overlay">
+                <img src="./assets/graphics/mobile/Overlay.svg" alt="">
+                <div class="navlinks-mobile">
+                    <a href="#about">Why me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <div class="language">
+                        <a href="">DE</a>
+                        <a href="">EN</a>
+                    </div>
                 </div>
-            </div>
-        </div> 
-    
+            </div> 
+        } 
         <div class="nav-wrapper"> 
             <img src="./assets/graphics/logo/Property 1=Default (1).svg" alt="">
             <div class="nav-links">

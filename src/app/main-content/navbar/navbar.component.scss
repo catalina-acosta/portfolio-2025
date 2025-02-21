@@ -57,16 +57,31 @@ a {
 }
 
 .menu-overlay {
-    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
 }
 
 @media screen and (max-width: 820px) {
+
     header {
         background-color: styles.$dark-grey;
         width: 100%;
+        position: absolute;
+        top: 0;
     }
+
     .nav-wrapper {
         display: none; 
+
+        img {
+            display: none;
+        }
     }
 
     .closed-menu {
@@ -80,13 +95,14 @@ a {
     }
     
     .menu-overlay {
+        display: flex;
         position: absolute;
         top: 8rem;
         flex-direction: column;
-        display: none;
         align-items: center;
         justify-content: center;
         height: 18rem;
+        z-index: 20;
 
         img {
             position: absolute;
