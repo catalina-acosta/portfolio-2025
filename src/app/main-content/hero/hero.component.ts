@@ -8,8 +8,18 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
   hovered: boolean = false;
+  hoveredIcon: string = '';
+
   isHovered(hoverStatus: boolean) {
     this.hovered = hoverStatus;
-    console.log(hoverStatus);
+  }
+
+
+  onMouseEnter(icon: string) {
+    this.hoveredIcon = icon;
+  }
+
+  onMouseLeave(icon: string) {
+    this.hoveredIcon = '';
   }
 }

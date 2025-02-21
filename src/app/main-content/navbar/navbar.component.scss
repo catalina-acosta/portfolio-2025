@@ -12,6 +12,7 @@ header {
 .nav-wrapper {
     max-width: 1214px;
     width: 100%;
+    padding: 0 12px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -52,7 +53,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 820px) {
     header {
         background-color: styles.$dark-grey;
         width: 100%;
