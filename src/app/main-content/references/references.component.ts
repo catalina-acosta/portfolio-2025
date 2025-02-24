@@ -10,17 +10,17 @@ export class ReferencesComponent {
   refList: {name: string; project: string; refText: string; linkein: string}[] = [
     {name: "Caryen Song", 
       project: "Join", 
-      refText: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure illum magnam nisi facilis amet laudantium dolor esse necessitatibus! Ex, sed assumenda numquam doloribus placeat quidem voluptatem illum. debitis doloremque molestias.",
+      refText: "‘’Catalina had to develop, format and deliver content in collaboration with the team members. She is a reliable and friendly person.’’",
       linkein: "#"
     },
     {name: "Caryen Song", 
       project: "Join", 
-      refText: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure illum magnam nisi facilis amet laudantium dolor esse necessitatibus! Ex, sed assumenda numquam doloribus placeat quidem voluptatem illum. debitis doloremque molestias.",
+      refText: "‘’Catalina is a reliable and friendly person. Works in a structured way and write a clear code. I recommend her as a colleague.’’",
       linkein: "#"
     },
     {name: "Caryen Song", 
       project: "Join", 
-      refText: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure illum magnam nisi facilis amet laudantium dolor esse necessitatibus! Ex, sed assumenda numquam doloribus placeat quidem voluptatem illum. debitis doloremque molestias.",
+      refText: "‘’ She is a trustworthy teamplayer and can cope with the stress of deadlines. Structured work and clear code. ‘’",
       linkein: "#"
     },
   ]

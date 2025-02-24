@@ -34,10 +34,12 @@ form {
             width: 100%;
         }
 
-        .privacy-p-wrapper {
-            display: flex;
-            align-items: center;
-        }
+    }
+    .privacy-p-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 12px;
     }
 }
 
@@ -61,6 +63,7 @@ form {
         }
     }
 }
+
 
 @media screen and (max-width: 820px) {
     form {
