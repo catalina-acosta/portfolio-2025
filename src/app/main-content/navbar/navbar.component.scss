@@ -45,12 +45,12 @@ a {
 }
 
 
-.language {
-    a {
+.lang-btn {
         font-size: 18px;
         font-weight: 400;
         padding: 4px;
-    }
+        border: none;
+        color: styles.$dark-grey;
 }
 
 .closed-menu {

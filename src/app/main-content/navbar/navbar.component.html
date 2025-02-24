@@ -13,8 +13,8 @@
                     <a href="#projects" (click)="toggleMenu()">Projects</a>
                     <a href="#contact" (click)="toggleMenu()">Contact</a>
                     <div class="language">
-                        <a href="" (click)="toggleMenu()">DE</a>
-                        <a href="" (click)="toggleMenu()">EN</a>
+                        <button class="lang-btn" (click)="changeLanguage('de')">DE</button>
+                        <button class="lang-btn" (click)="changeLanguage('en')">EN</button>
                     </div>
                 </div>
             </div> 
@@ -28,8 +28,8 @@
                 <a href="#contact">Contact</a>
             </div>
             <div class="language">
-                <a href="">DE</a>
-                <a href="">EN</a>
+                <button class="lang-btn" (click)="changeLanguage('de')">DE</button>
+                <button class="lang-btn" (click)="changeLanguage('en')">EN</button>
             </div>
         </div>
     </nav>
