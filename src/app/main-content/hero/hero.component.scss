@@ -33,11 +33,11 @@
         display: none;
     }
 
-    .img-default {
+    .bg-img {
+        width: 600px;
         transition: transform 800ms ease-in, opacity 1s ease-in;
         
         &:hover {
-            transform: rotate(-7deg);
             opacity: 1;
         }
     }

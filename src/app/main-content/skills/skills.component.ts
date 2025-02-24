@@ -18,5 +18,11 @@ export class SkillsComponent {
     {name: "GIT", imgPath: "./assets/graphics/skills/skill-icons/git.svg"},
     {name: "Material Design", imgPath: "./assets/graphics/skills/skill-icons/MaterialDesign.svg"},
     {name: "Scrum", imgPath: "./assets/graphics/skills/skill-icons/scrum.svg"},
-  ]
+  ];
+
+  hovered: boolean = false;
+
+  toggleHovered(hoverStatus:  boolean) {
+    this.hovered = hoverStatus;
+  }
 }

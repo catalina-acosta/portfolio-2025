@@ -3,16 +3,16 @@
         <h4>Need a teamplayer? Here what my colleagues say about me</h4>
         <div class="references-container">
             @for (reference of refList; track $index) {
-                <div class="references-wrapper">
-                    <div class="reference-info">
-                        <div class="ref-title">
+                <div class="references-wrapper" >
+                    <div class="reference-info" (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)">
+                        <div class="ref-title" >
                             <h6>{{reference.name}}</h6>
                             <p>Project <span>{{reference.project}}</span></p>
                         </div>
                         <p>{{reference.refText}}</p>
                         <a href="{{reference.linkein}}">Linked In Profile</a>
                     </div>
-                    <img src="./assets/graphics/references/Shape.svg" alt="">
+                    <img [src]="this.refList[$index].hovered ? './assets/graphics/skills/currently-learning/Ellipse BG.svg': './assets/graphics/skills/currently-learning/Ellipse BG hover.svg'" alt="" alt="">
                 </div>
             }
         </div>

@@ -12,12 +12,12 @@
                     </div>
                 }
             </div>
-            <div class="current-learning">
-                <div class="content-wrapper">
+            <div class="current-learning"(mouseenter)="toggleHovered(true)" (mouseleave)="toggleHovered(false)">
+                <div class="content-wrapper" >
                     <p>What I am currently learning</p>
-                    <div class="currently-learning-content">
+                    <div class="currently-learning-content"> 
                         <div class="new-skills-wrapper">
-                            <img src="./assets/graphics/skills/currently-learning/React.svg" alt="">
+                            <img src="./assets/graphics/skills/currently-learning/React.svg" alt="background-ellipse">
                             <p>React</p>
                         </div>
                         <p>
@@ -25,7 +25,8 @@
                         </p>
                     </div>
                 </div>
-                <img class="bg-desktop" src="./assets/graphics/skills/currently-learning/Ellipse BG.svg"  alt="">
+                <img class="bg-desktop"
+                [src]="this.hovered ? './assets/graphics/skills/currently-learning/Ellipse BG.svg': './assets/graphics/skills/currently-learning/Ellipse BG hover.svg'" alt="">
             </div>
         </div>
     </section>
