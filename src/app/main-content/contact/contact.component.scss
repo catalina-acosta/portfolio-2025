@@ -25,3 +25,26 @@
         }
     }
 }
+
+@media screen and (max-width:820px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .contact-text-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

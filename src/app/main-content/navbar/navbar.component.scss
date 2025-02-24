@@ -4,15 +4,16 @@ header {
     height: 104px;
     width: 100%;
     background-color: styles.$light-blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: sticky;
     top: 0;
 }
 
 nav {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     .nav-wrapper {
         max-width: 1214px;
         width: 100%;
@@ -65,6 +66,12 @@ a {
     align-items: center;
     justify-content: center;
     z-index: 20;
+}
+
+@media screen and (max-width: 1226px) {
+    .nav-wrapper {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -130,6 +137,15 @@ a {
                 font-weight: 400;
             }
         }
+    }
+}
+
+@media screen and (max-width: 472px) {
+    header {
+        height: 88px;
+    }
+    .logo {
+        width: 56px;
     }
 }
 

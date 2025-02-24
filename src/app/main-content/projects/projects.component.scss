@@ -41,13 +41,13 @@
 .project-display-box {
     max-width: 1199px;
     display: flex;
-    padding: 24px 0;
+    padding: 24px 12px;
     gap: 48px;
 
     .project-info {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .details-box {
             display: flex;
@@ -78,4 +78,58 @@
             margin: 0 24px;
         }
     }
+}
+
+@media screen and (max-width: 1216px) {
+    .large-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    .project-menu {
+        .project-menu-box {
+
+            .project-menu-btn {
+                padding: 16px;
+                font-size: 18px;
+            }
+
+            .project-menu-btn-focus {
+                background-color: styles.$projects-grey;
+                padding: 16px;
+                font-size: 18px;
+                border-radius: 30px 30px 0 0;
+            }
+        }
+    }
+
+    .project-details {
+        .project-img {
+            width: 269px;
+        }
+        .button-wrapper {
+            button {
+                margin: 0 2px
+            }
+        }
+    }
+
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+    }
+
 }

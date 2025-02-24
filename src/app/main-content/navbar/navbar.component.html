@@ -1,20 +1,20 @@
 <header>
     <nav>
         <div class="closed-menu" (click)="toggleMenu()" >
-            <img src="./assets/graphics/mobile/Logo mob.svg" alt="">
+            <img class="logo" src="./assets/graphics/mobile/Logo mob.svg" alt="">
             <img src="./assets/graphics/mobile/burger-menu.svg" alt="">
         </div>
         @if (isclicked) {
             <div class="menu-overlay">
                 <img src="./assets/graphics/mobile/Overlay.svg" alt="">
                 <div class="navlinks-mobile">
-                    <a href="#about">Why me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#about" (click)="toggleMenu()">Why me</a>
+                    <a href="#skills" (click)="toggleMenu()">Skills</a>
+                    <a href="#projects" (click)="toggleMenu()">Projects</a>
+                    <a href="#contact" (click)="toggleMenu()">Contact</a>
                     <div class="language">
-                        <a href="">DE</a>
-                        <a href="">EN</a>
+                        <a href="" (click)="toggleMenu()">DE</a>
+                        <a href="" (click)="toggleMenu()">EN</a>
                     </div>
                 </div>
             </div> 
