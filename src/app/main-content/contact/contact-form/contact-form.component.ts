@@ -22,7 +22,7 @@ export class ContactFormComponent {
   mailTest = false;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://voluble-chimera-171886.netlify.app/src/app/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
