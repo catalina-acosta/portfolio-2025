@@ -39,7 +39,7 @@ a {
         color: styles.$white;
     }
 
-    &:focus {
+    &:active {
         background-image: url('/assets/graphics/navbar/Ellipse 24.svg');
     }
 }
