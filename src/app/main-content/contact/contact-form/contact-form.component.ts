@@ -19,7 +19,7 @@ export class ContactFormComponent {
 
   privacyPolicyChecked: boolean = false;
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
     endPoint: 'https://deineDomain.de/sendMail.php',
