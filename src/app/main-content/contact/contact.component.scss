@@ -1,8 +1,13 @@
 @use '../../../styles.scss';
 
+.btn-wrapper {
+    display: flex;
+}
+
 .small-content-wrapper {
     width: 911px;
 }
+
 .contact-text-wrapper {
     display: flex;
     gap: 36px;
@@ -24,6 +29,11 @@
             margin-right: 12px;
         }
     }
+}
+
+a {
+    margin-top: 116px;
+    transform: translateX(-42px);
 }
 
 @media screen and (max-width:820px) {
