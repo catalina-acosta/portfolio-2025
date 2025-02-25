@@ -46,7 +46,6 @@
         flex-direction: column;
         gap: 20px;
         align-items: center;
-        max-width: 280px;
 
         p {
             text-align: center;
@@ -120,6 +119,7 @@
         }
 
         .content-wrapper {
+            
             p{
                 text-align: left;
             }
@@ -147,4 +147,14 @@
     button {
         display: block;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .current-learning{
+
+        .content-wrapper {
+            max-width: 280px;
+        }
+    }
+    
 }

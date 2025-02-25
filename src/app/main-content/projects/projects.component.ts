@@ -108,7 +108,12 @@ export class ProjectsComponent {
       img: "./assets/graphics/projects/Join.png"
     },
   ];
+
   setCurrentProject(index: number) {
     this.currentProject = index;
+  };
+
+  getTechnologiesString(): string {
+    return this.projectList[this.currentProject].technologies.map(tech => tech.name).join(', ');
   }
 }

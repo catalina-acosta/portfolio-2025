@@ -30,7 +30,8 @@
             </div>
             <div class="project-details">
                 <h4 class="project-title" >{{projectList[currentProject].title}}</h4>
-                <p>Technologies: </p>
+                <p class="tech-icons-title">Technologies: </p>
+                <p class="tech-names">Technologies: {{getTechnologiesString()}}</p>
                 <div class="tech-icons">
                     @for (item of projectList[this.currentProject].technologies; track $index){
                         <img src="{{item.url}}" alt="{{item.name}}">

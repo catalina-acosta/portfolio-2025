@@ -1,4 +1,4 @@
-@use '../../../styles.scss';
+@use '../../../styles.scss' as styles;
 
 .content-box {
     flex-direction: column;
@@ -87,7 +87,7 @@
     }
 }
 
-.project-title, .icon-name {
+.project-title, .icon-name, .tech-names {
     display: none;
 }
 
@@ -137,10 +137,16 @@
         color: styles.$light-blue;
     }
 
-    .tech-icons {
-        img {
-            display: none;
-        }
+    .tech-icons, .tech-icons-title {
+        display: none;
+    }
+
+    .tech-names {
+        display: block;
+    }
+
+    .project-details {
+        align-items: flex-start;
     }
 
     h2 {
@@ -160,7 +166,6 @@
 
     p {
         font-size: 16px;
-        text-align: center;
         width: 80%;
     }
 

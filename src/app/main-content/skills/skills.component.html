@@ -1,6 +1,6 @@
 <div id="skills" class="content-box">
     <section class="small-content-wrapper">
-        <h2>My Skills</h2>
+        <h2>{{'skills.title' | translate}}</h2>
         <div class="skills-wrapper">
             <div class="tech-stack">
                 @for(skill of skillsList; track $index) {
@@ -14,7 +14,7 @@
             </div>
             <div class="current-learning"(mouseenter)="toggleHovered(true)" (mouseleave)="toggleHovered(false)">
                 <div class="content-wrapper" >
-                    <p class="current-title">What I am currently learning</p>
+                    <p class="current-title">{{'skills.currentLearning' | translate}}</p>
                     <div class="currently-learning-content"> 
                         <div class="new-skills-wrapper">
                             <img src="./assets/graphics/skills/currently-learning/React.svg" alt="background-ellipse">

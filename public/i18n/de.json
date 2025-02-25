@@ -1,6 +1,71 @@
 {
+    "navabar": {
+        "nav1": "Warum ich",
+        "nav2": "Fähigkeiten",
+        "nav3": "Projekte",
+        "nav4": "Kontakt"
+    },
     "about": {
-        "location": "Guten Tag! {{value}}",
-        "information": "Warum bist du leidenschaftlich am Programmieren interessiert? Du kannst einige wichtige Eigenschaften einbringen, wie analytisches Denken, Kreativität, Durchhaltevermögen und Zusammenarbeit. Eine lösungsorientierte Denkweise ist immer von Vorteil."
+        "title": "Warum ich",
+        "location": "Ich befinde mich in Regensburg...",
+        "information": "Warum sind Sie leidenschaftlich am Programmieren interessiert? Sie können einige wichtige Eigenschaften wie: analytisches Denken, Kreativität, Ausdauer und Zusammenarbeit einbeziehen. Eine problemlösende Denkweise ist immer gut zu haben.",
+        "button": "Lass uns reden"
+    },
+    "skills": {
+        "title": "Meine Fähigkeiten",
+        "currentLearning": "Was ich derzeit lerne",
+        "currentlyLearningText": "Zeigen Sie, dass Sie motiviert sind, Ihre Fähigkeiten kontinuierlich zu verbessern, innovative Lösungen zu implementieren und über neue Technologien auf dem Laufenden zu bleiben."
+    },
+    "projects": [{
+        "title": "Join",
+        "contentPs": [
+            {
+                "sectionTitle": "Über das Projekt",
+                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            },
+            {
+                "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            },
+            {
+                "sectionTitle": "Meine Gruppenerfahrung",
+                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            }
+        ]
+    }, 
+    {
+        "title": "Sharkie",
+        "contentPs": [
+            {
+                "sectionTitle": "Über das Projekt",
+                "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+            },
+            {
+                "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            },
+            {
+                "sectionTitle": "Meine Gruppenerfahrung",
+                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            }
+        ]
+    }],
+    "references": {
+        "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich sagen",
+        "references": [
+            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
+            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
+            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’"
+        ]
+    },
+    "contact": {
+        "title": "Kontaktieren Sie mich",
+        "description": "Ermutigen Sie die Leute, Sie zu kontaktieren, und beschreiben Sie, welche Rolle Sie interessiert. Zeigen Sie, dass Sie durch Ihre Arbeit einen Mehrwert für ihre Projekte schaffen werden. Beispiel: Zögern Sie nicht, sich mit Jobangeboten oder Möglichkeiten wie:",
+        "emailLabel": "Ihre E-Mail",
+        "nameLabel": "Ihr Name",
+        "messageLabel": "Ihre Nachricht",
+        "submitButton": "Absenden",
+        "privacyPolicy": "Ich habe die Datenschutzrichtlinie gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+        "button": "Absenden"
     }
 }
