@@ -14,9 +14,12 @@
     "skills": {
         "title": "Meine Fähigkeiten",
         "currentLearning": "Was ich derzeit lerne",
-        "currentlyLearningText": "Zeigen Sie, dass Sie motiviert sind, Ihre Fähigkeiten kontinuierlich zu verbessern, innovative Lösungen zu implementieren und über neue Technologien auf dem Laufenden zu bleiben."
+        "currentlyLearningText": "Zeigen Sie, dass Sie motiviert sind, Ihre Fähigkeiten kontinuierlich zu verbessern, innovative Lösungen zu implementieren und über neue Technologien auf dem Laufenden zu bleiben.",
+        "button": "Lass uns reden"
     },
-    "projects": [{
+    "projects": {
+        "sectionTitle": "Meine Projekte", 
+        "allProjects" : [{
         "title": "Join",
         "contentPs": [
             {
@@ -49,7 +52,7 @@
                 "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
             }
         ]
-    }],
+    }]},
     "references": {
         "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich sagen",
         "references": [

@@ -15,9 +15,12 @@
     "skills": {
         "title": "My Skills",
         "currentLearning": "What I am currently learning",
-        "currentlyLearningText": "Show that you are motivated to continually improve your skills, implement innovative solutions and stay abreast of new technologies."
+        "currentlyLearningText": "Show that you are motivated to continually improve your skills, implement innovative solutions and stay abreast of new technologies.",
+        "button": "Let's talk"
     },
-    "projects": [{
+    "projects": {
+        "sectionTitle": "My Projects",
+        "allProjects": [{
         "title": "Join",
         "contentPs": [
             {
@@ -50,7 +53,7 @@
             "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
             }
         ]
-    }],
+    }]},
     "references": {
         "title": "Need a teamplayer? Here what my colleagues say about me",
         "references": [
