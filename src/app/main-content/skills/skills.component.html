@@ -6,7 +6,7 @@
                 @for(skill of skillsList; track $index) {
                     <div class="skill-box">
                         <div class="img-wrapper">
-                            <img src="{{skill.imgPath}}" alt="">
+                            <img src="{{skill.imgPath}}" alt="{{skill.name}}">
                         </div>
                         <p>{{skill.name}}</p>
                     </div>
@@ -14,7 +14,7 @@
             </div>
             <div class="current-learning"(mouseenter)="toggleHovered(true)" (mouseleave)="toggleHovered(false)">
                 <div class="content-wrapper" >
-                    <p>What I am currently learning</p>
+                    <p class="current-title">What I am currently learning</p>
                     <div class="currently-learning-content"> 
                         <div class="new-skills-wrapper">
                             <img src="./assets/graphics/skills/currently-learning/React.svg" alt="background-ellipse">
@@ -25,6 +25,7 @@
                             Show that you are motivated to continually improve your skills, implement innovative solutions and stay abreast of new technologies. 
                         </p>
                     </div>
+                    <a href="#contact"><button class="btn-primary">Let's talk</button></a>
                 </div>
                 <img class="bg-desktop"
                 [src]="this.hovered ? './assets/graphics/skills/currently-learning/Ellipse BG hover.svg':'./assets/graphics/skills/currently-learning/Ellipse BG.svg'" alt="">
