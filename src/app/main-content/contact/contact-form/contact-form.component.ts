@@ -22,7 +22,7 @@ export class ContactFormComponent {
   mailTest = false;
 
   post = {
-    endPoint: 'http://portfolio.talentcol.com/src/app/sendMail.php',
+    endPoint: 'https://portfolio.talentcol.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {

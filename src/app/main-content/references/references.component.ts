@@ -30,7 +30,5 @@ export class ReferencesComponent {
 
   toggleHovered(hoverStatus:  boolean, index: number) {
     this.refList[index].hovered = hoverStatus;
-    console.log("hovered");
-    
   }
 }

@@ -4,7 +4,7 @@
         <div class="references-container">
             @for (reference of refList; track $index) {
                 <div class="references-wrapper" >
-                    <div class="reference-info" (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)">
+                    <div class="reference-info">
                         <div class="ref-title" >
                             <h6>{{reference.name}}</h6>
                             <p>Project <span>{{reference.project}}</span></p>
@@ -12,7 +12,8 @@
                         <p>{{reference.refText}}</p>
                         <a href="{{reference.linkein}}">Linked In Profile</a>
                     </div>
-                    <img [src]="this.refList[$index].hovered ? './assets/graphics/skills/currently-learning/Ellipse BG.svg': './assets/graphics/skills/currently-learning/Ellipse BG hover.svg'" alt="" alt="">
+                    <img (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)"
+                    [src]="this.refList[$index].hovered ?  './assets/graphics/skills/currently-learning/Ellipse BG hover.svg': './assets/graphics/skills/currently-learning/Ellipse BG.svg'" alt="">
                 </div>
             }
         </div>
