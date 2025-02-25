@@ -37,20 +37,24 @@ a {
 
     &:hover {
         color: styles.$white;
+        cursor: pointer;
     }
+}
 
-    &:active {
-        background-image: url('/assets/graphics/navbar/Ellipse 24.svg');
-    }
+.active {
+    color: red;
 }
 
 
 .lang-btn {
-        font-size: 18px;
-        font-weight: 400;
-        padding: 4px;
-        border: none;
-        color: styles.$dark-grey;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 4px;
+    border: none;
+    color: styles.$dark-grey;
+    &:hover {
+        color: styles.$white;
+    }
 }
 
 .closed-menu {
@@ -113,6 +117,7 @@ a {
 
         img {
             position: absolute;
+            width: 312px;
         }
         .navlinks-mobile {
             display: flex;
@@ -149,10 +154,8 @@ a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 455px) {
     .menu-overlay {
-        img {
-            width: 280px;
-        }
+        top: 6.5rem;
     }
 }

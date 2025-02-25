@@ -63,9 +63,11 @@
     .hero-photo {
         width: 300px;
     }
-    .img-default {
-        height: 425px;
-        width: 400px;
+
+    .img-container {
+        .bg-img {
+            width: 400px;
+        }
     }
 
     .hero-text {
@@ -86,7 +88,7 @@
     
     .container {
         flex-direction: column;
-
+        margin-top: 4rem;
 
         .img-container {
             
@@ -96,6 +98,7 @@
             
             .img-default-mobile {
                 display: block;
+                width: 300px;
             }
             
             .hero-photo {

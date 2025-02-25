@@ -14,13 +14,16 @@ import {
 })
 export class NavbarComponent {
   isclicked: boolean = false;
+  activeSection: string = "";
 
   constructor(private translate: TranslateService){}
   
   toggleMenu() {
     this.isclicked = !this.isclicked;
   }
-    changeLanguage(language: string) {
-      this.translate.use(language);
-    }
+
+  changeLanguage(language: string) {
+    this.translate.use(language);
+  }
+
 }
