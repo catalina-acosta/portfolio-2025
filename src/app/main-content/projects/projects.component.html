@@ -23,16 +23,22 @@
                         </div>
                     </div>
                 }
+                <div class="button-wrapper-mobile">
+                    <button class="btn-primary">Live Test</button>
+                    <button class="btn-secondary">GitHub</button>
+                </div>
             </div>
             <div class="project-details">
-                <p>Technologies</p>
+                <h4 class="project-title" >{{projectList[currentProject].title}}</h4>
+                <p>Technologies: </p>
                 <div class="tech-icons">
                     @for (item of projectList[this.currentProject].technologies; track $index){
-                        <img src="{{item}}" alt="">
+                        <img src="{{item.url}}" alt="{{item.name}}">
+                        <p class="icon-name">{{item.name}}</p>
                     }
                 </div>
                 <img class="project-img" src="{{projectList[this.currentProject].img}}" alt="">
-                <div class="button-wrapper">
+                <div class="button-wrapper-desktop">
                     <button class="btn-primary">Live Test</button>
                     <button class="btn-secondary">GitHub</button>
                 </div>

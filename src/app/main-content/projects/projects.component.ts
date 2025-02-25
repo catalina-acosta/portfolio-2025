@@ -12,7 +12,7 @@ export class ProjectsComponent {
   projectList:{
     title: string; 
     contentPs: { sectionTitle: string; text: string}[];
-    technologies: string[];
+    technologies: {name: string, url: string}[];
     img: string;
   }[] = [
     {
@@ -31,8 +31,10 @@ export class ProjectsComponent {
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
         },
       ],
-      technologies: ["./assets/graphics/projects/technologies/Angular (1).svg", "./assets/graphics/projects/technologies/Typescript.svg", 
-                      "./assets/graphics/projects/technologies/html (1).svg", "./assets/graphics/projects/technologies/css (2).svg"
+      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
+        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
+        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
+        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
       img: "./assets/graphics/projects/Join.png" 
     },
@@ -52,8 +54,10 @@ export class ProjectsComponent {
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
         },
       ],
-      technologies: ["./assets/graphics/projects/technologies/Angular (1).svg", "./assets/graphics/projects/technologies/Typescript.svg", 
-                      "./assets/graphics/projects/technologies/html (1).svg", "./assets/graphics/projects/technologies/css (2).svg"
+      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
+        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
+        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
+        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
       img: "./assets/graphics/projects/sharkie.png" 
     },
@@ -73,8 +77,10 @@ export class ProjectsComponent {
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
         },
       ],
-      technologies: ["./assets/graphics/projects/technologies/Angular (1).svg", "./assets/graphics/projects/technologies/Typescript.svg", 
-                      "./assets/graphics/projects/technologies/html (1).svg", "./assets/graphics/projects/technologies/css (2).svg"
+      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
+        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
+        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
+        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
       img: "./assets/graphics/projects/Join.png"  
     },
@@ -94,8 +100,10 @@ export class ProjectsComponent {
           text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
         },
       ],
-      technologies: ["./assets/graphics/projects/technologies/Angular (1).svg", "./assets/graphics/projects/technologies/Typescript.svg", 
-                      "./assets/graphics/projects/technologies/html (1).svg", "./assets/graphics/projects/technologies/css (2).svg"
+      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
+        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
+        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
+        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
       img: "./assets/graphics/projects/Join.png"
     },
