@@ -14,6 +14,7 @@ import {
 export class NavbarComponent {
   isclicked: boolean = false;
   activeSection: string = "";
+  currentLanguage: string = "en";
 
   constructor(private translate: TranslateService){}
   
@@ -25,11 +26,13 @@ export class NavbarComponent {
     this.activeSection = link;
   }
 
-  setActiveLanguage() {
-
+  setLanguage(currentLanguage: string) {
+    
   }
+
   changeLanguage(language: string) {
     this.translate.use(language);
+    this.currentLanguage = language;
   }
 
 }

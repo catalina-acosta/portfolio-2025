@@ -28,8 +28,8 @@
                 <a (click)="setActive('contact') "[ngClass]="{'active': activeSection === 'contact'}" href="#contact">{{'navbar.nav4' | translate}}</a>
             </div>
             <div class="language">
-                <button class="lang-btn" (click)="changeLanguage('de')">DE</button>
-                <button class="lang-btn" (click)="changeLanguage('en')">EN</button>
+                <button class="lang-btn" (click)="changeLanguage('de')" [ngClass]="{'active': currentLanguage ==='de'}">DE</button>
+                <button class="lang-btn" (click)="changeLanguage('en')" [ngClass]="{'active': currentLanguage ==='en'}">EN</button>
             </div>
         </div>
     </nav>
