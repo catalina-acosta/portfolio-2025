@@ -1,6 +1,6 @@
 <div id="references" class="content-box">
     <section class="large-container">
-        <h4>Need a teamplayer? Here what my colleagues say about me</h4>
+        <h4>{{'references.title' | translate}}</h4>
         <div class="references-container">
             @for (reference of refList; track $index) {
                 <div class="references-wrapper" >
@@ -10,7 +10,7 @@
                             <p>Project <span>{{reference.project}}</span></p>
                         </div>
                         <p>{{reference.refText}}</p>
-                        <a href="{{reference.linkein}}">Linked In Profile</a>
+                        <a href="{{reference.linkedin}}">Linked In Profile</a>
                     </div>
                     <img (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)"
                     [src]="this.refList[$index].hovered ?  './assets/graphics/skills/currently-learning/Ellipse BG hover.svg': './assets/graphics/skills/currently-learning/Ellipse BG.svg'" alt="">
