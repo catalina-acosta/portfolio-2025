@@ -95,5 +95,24 @@
         "privacyPolicySpan": "privacy policy ", 
         "privacyPolicy2": "and agree to the processing of my data as outlined.",
         "button": "submit"
+    },
+    "imprint": {
+        "backButton": "go back",
+        "title": "Legal Notice",
+        "description": "Information about the service provider.",
+        "name": "Catalina Acosta Rivera",
+        "address": "Fichtelgebirgstr. 29, 93057 Regensburg, Germany",
+        "phone": "Phone: 015165685658",
+        "email": "Email: catalina.acosta.rivera@gmail.com",
+        "euDisputeResolutionTitle": "EU Dispute Resolution",
+        "euDisputeResolutionDescription": "In accordance with the Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation), we would like to inform you about the Online Dispute Resolution platform (OS platform). Consumers have the option to submit complaints to the Online Dispute Resolution platform of the European Commission at",
+        "euDisputeResolutionLink": "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN",
+        "euDisputeResolutionNote": "The necessary contact details can be found above in our legal notice. However, we would like to point out that we are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+        "imageCreditsTitle": "Image Credits",
+        "imageCreditsDescription": "The images, photos, and graphics on this website are protected by copyright.",
+        "imageCreditsOwner": "The image rights are held by: Developer Academy",
+        "textCopyright": "All texts are protected by copyright.",
+        "source": "Source: Created with the Legal Notice Generator from AdSimple"
     }
+    
 }

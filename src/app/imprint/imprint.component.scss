@@ -1,0 +1,25 @@
+@use '../../styles.scss' as styles;
+
+.content-box {
+    flex-direction: column;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+h2 {
+    margin: 12px 0;
+}
+
+a {
+    font-size: 18px;
+    padding: 0 4px;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 24px;
+}

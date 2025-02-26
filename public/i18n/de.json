@@ -94,5 +94,23 @@
         "privacyPolicySpan": "Datenschutzrichtlinie ",
         "privacyPolicy2": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
         "button": "Absenden"
+    }, 
+    "imprint": {
+        "backButton": "zurück",
+        "title": "Impressum",
+        "description": "Informationen über den Diensteanbieter.",
+        "name": "Catalina Acosta Rivera",
+        "address": "Fichtelgebirgstr. 29, 93057 Regensburg, Deutschland",
+        "phone": "Tel.: 015165685658",
+        "email": "E-Mail: catalina.acosta.rivera@gmail.com",
+        "euDisputeResolutionTitle": "EU-Streitschlichtung",
+        "euDisputeResolutionDescription": "Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir Sie über die Online-Streitbeilegungsplattform (OS-Plattform) informieren. Verbraucher haben die Möglichkeit, Beschwerden an die Online Streitbeilegungsplattform der Europäischen Kommission unter",
+        "euDisputeResolutionLink": "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE",
+        "euDisputeResolutionNote": "zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum. Wir möchten Sie jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+        "imageCreditsTitle": "Bildernachweis",
+        "imageCreditsDescription": "Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.",
+        "imageCreditsOwner": "Die Bilderrechte liegen bei: Developer Akademie",
+        "textCopyright": "Alle Texte sind urheberrechtlich geschützt.",
+        "source": "Quelle: Erstellt mit dem Impressum Generator von AdSimple"
     }
 }
