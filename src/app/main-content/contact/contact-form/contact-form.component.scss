@@ -4,7 +4,6 @@ form {
     label {
         font-size: 14px;
         font-family: 'Josefin Sans';
-        color: styles.$light-blue;
         font-weight: 400;
         margin-left: 20px;
     }
@@ -21,7 +20,7 @@ form {
 
         input[type=text], input[type=email], textarea {
             background-color: transparent;
-            border: 1px solid styles.$light-blue;
+            border: 1px solid;
             border-radius: 30px;
             width: 445px;
             height: 60px;
@@ -40,6 +39,12 @@ form {
         align-items: center;
         gap: 8px;
         margin-top: 12px;
+
+        img {
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 }
 
@@ -63,6 +68,14 @@ form {
             cursor: pointer;
         }
     }
+}
+
+.invalid {
+    color: styles.$red;
+}
+
+.valid {
+    color: styles.$light-blue;
 }
 
 @media screen and (max-width: 1000px) {

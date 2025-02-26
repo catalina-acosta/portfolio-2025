@@ -1,10 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contact-form',
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './contact-form.component.html',
   styleUrl: './contact-form.component.scss'
 })
@@ -19,7 +20,9 @@ export class ContactFormComponent {
 
   privacyPolicyChecked: boolean = false;
 
-  mailTest = false;
+  mailTest = true;
+
+  formSubmitted = false;
 
   post = {
     endPoint: 'https://portfolio.talentcol.com/sendMail.php',
@@ -31,6 +34,14 @@ export class ContactFormComponent {
       },
     },
   };
+
+  togglePrivacyPolicyChecked() {
+    this.privacyPolicyChecked = !this.privacyPolicyChecked;
+  }
+
+  isFormSubmitted() {
+    this.formSubmitted = true;
+  }
 
   onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {

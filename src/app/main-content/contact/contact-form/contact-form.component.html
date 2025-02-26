@@ -1,27 +1,39 @@
 <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
     <div class="email-name-wrapper">
         <div class="input-container">
-            <label for="name">Your name</label>
-            <input [(ngModel)]="contactData.name" type="text" id="text" name="text" required>
+
+            <label [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched }" for="name">
+                {{ !name.valid && name.touched ? 'Please enter a valid name' : 'Your name' }}
+            </label>
+            <input [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched }" #name="ngModel" [(ngModel)]="contactData.name" type="text" id="text" name="text" required minlength="4">
         </div>
         <div class="input-container">
-            <label for="email">Your email</label>
-            <input [(ngModel)]="contactData.email" type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+            <label [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched }" for="email">{{ !email.valid && email.touched ? 'Please enter a valid email' : 'Your email' }}</label>
+            <input [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched }" #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email" minlength="4" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
         </div>
     </div>
     <div class="input-container">
-        <label for="message">Your message</label>
-        <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" id="message"  required></textarea>
-        @if (!message.valid && message.touched) {
-            <span>Please enter a message</span>
-        }
+        <label [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched }" for="message">
+            {{!message.valid && message.touched ? 'Please enter a valid message' : 'Your message'}}</label>
+        <textarea [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched }" #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" id="message"  required></textarea>
     </div>
     <div class="privacy-p-wrapper">
-        <img src="./assets/graphics/contact/checkbox/Property 1=Default (3).svg" alt="">
-        <p>I've read the <span>privacy policy </span>and agree to the processing of my data as outlined.</p>
+        @if(privacyPolicyChecked) {
+            <img src="./assets/graphics/contact/checkbox/Property 1=Checked.svg" alt="" (click)="togglePrivacyPolicyChecked()">
+            <p>I've read the <span>privacy policy </span>and agree to the processing of my data as outlined.</p>
+        } @else if(!privacyPolicyChecked && formSubmitted) {
+            <img src="./assets/graphics/contact/checkbox/Ellipse 32red.svg" alt="" (click)="togglePrivacyPolicyChecked();isFormSubmitted()">
+            <div class="privacy-policy-box">
+                <p>I've read the <span>privacy policy </span>and agree to the processing of my data as outlined.</p>
+                <p class="invalid">Please accept the privacy policy</p>
+            </div>
+        } @else {
+            <img src="./assets/graphics/contact/checkbox/Property 1=Default (3).svg" alt="" (click)="togglePrivacyPolicyChecked()">
+            <p>I've read the <span>privacy policy </span>and agree to the processing of my data as outlined.</p>
+        }
     </div>
     <div class="btn-wrapper">
-        <input class="btn-submit" type="submit" value="Submit">
+        <input class="btn-submit" type="submit" value="Submit" (click)="isFormSubmitted()" >
     </div>
 </form>
 
