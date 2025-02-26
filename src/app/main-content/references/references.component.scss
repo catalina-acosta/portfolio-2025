@@ -56,3 +56,12 @@
 }
 
 
+@media screen and (max-width: 820px) {
+    .large-container{
+        .references-container {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+        }
+    }
+
+}

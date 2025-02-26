@@ -57,6 +57,7 @@ form {
         color: styles.$light-blue;
         font-family: 'Josefin Sans', sans-serif;
         padding: 13px 30px; 
+        margin-top: 24px;
         &:hover {
             scale: 1.05;
             cursor: pointer;
@@ -64,8 +65,20 @@ form {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    form{
+        max-width: 700px;
 
-@media screen and (max-width: 820px) {
+        .input-container {
+            input[type=text], input[type=email] {
+                width: 342px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 740px) {
     form {
         margin: 12px;
 

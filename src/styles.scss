@@ -143,3 +143,13 @@ button {
     width: 860px;
 }
 
+@media screen and (max-width:740px) {
+    h2 {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:420px) {
+    h2 {
+        font-size: 32px;
+    }
+}

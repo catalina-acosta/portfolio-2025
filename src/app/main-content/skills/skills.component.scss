@@ -46,6 +46,7 @@
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        width: 280px;
 
         p {
             text-align: center;
@@ -77,7 +78,6 @@
 
 @media screen and (max-width: 820px) {
     h2 {
-        font-size: 32px;
         margin-bottom: 40px;
     }
 
