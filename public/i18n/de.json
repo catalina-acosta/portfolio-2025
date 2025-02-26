@@ -1,5 +1,5 @@
 {
-    "navabar": {
+    "navbar": {
         "nav1": "Warum ich",
         "nav2": "Fähigkeiten",
         "nav3": "Projekte",
@@ -17,42 +17,63 @@
         "currentlyLearningText": "Zeigen Sie, dass Sie motiviert sind, Ihre Fähigkeiten kontinuierlich zu verbessern, innovative Lösungen zu implementieren und über neue Technologien auf dem Laufenden zu bleiben.",
         "button": "Lass uns reden"
     },
-    "projects": {
-        "sectionTitle": "Meine Projekte", 
-        "allProjects" : [{
-        "title": "Join",
-        "contentPs": [
-            {
-                "sectionTitle": "Über das Projekt",
-                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-            },
-            {
-                "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-            },
-            {
-                "sectionTitle": "Meine Gruppenerfahrung",
-                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-            }
-        ]
-    }, 
-    {
-        "title": "Sharkie",
-        "contentPs": [
-            {
-                "sectionTitle": "Über das Projekt",
-                "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
-            },
-            {
-                "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-            },
-            {
-                "sectionTitle": "Meine Gruppenerfahrung",
-                "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-            }
-        ]
-    }]},
+    "projects-title": "Meine Projekte",
+    "join": {
+        "section1": {
+            "sectionTitle": "Über das Projekt",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }, 
+        "section2": {
+            "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }, 
+        "section3": {
+            "sectionTitle": "Meine Gruppenerfahrung",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }
+    },
+    "sharkie": {
+        "section1": {
+            "sectionTitle": "Über das Projekt",
+            "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+        }, 
+        "section2": {
+            "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }, 
+        "section3": {
+            "sectionTitle": "Meine Gruppenerfahrung",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }
+    },
+    "project3": {
+        "section1": {
+            "sectionTitle": "Über das Projekt",
+            "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+        }, 
+        "section2": {
+            "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }, 
+        "section3": {
+            "sectionTitle": "Meine Gruppenerfahrung",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }
+    },
+    "project4": {
+        "section1": {
+            "sectionTitle": "Über das Projekt",
+            "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+        }, 
+        "section2": {
+            "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }, 
+        "section3": {
+            "sectionTitle": "Meine Gruppenerfahrung",
+            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        }
+    },
     "references": {
         "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich sagen",
         "references": [

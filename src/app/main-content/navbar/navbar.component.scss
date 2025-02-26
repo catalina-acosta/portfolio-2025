@@ -34,6 +34,11 @@ a {
     color: styles.$dark-grey;
     font-size: 26px;
     font-weight: 500;
+    min-width: 90px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
         color: styles.$white;
@@ -42,7 +47,9 @@ a {
 }
 
 .active {
-    color: red;
+    background-image: url('../../../../public/assets/graphics/navbar/Ellipse\ 24.svg');
+    background-repeat: no-repeat;
+
 }
 
 

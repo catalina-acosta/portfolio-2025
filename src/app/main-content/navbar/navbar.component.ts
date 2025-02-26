@@ -14,7 +14,7 @@ import {
 })
 export class NavbarComponent {
   isclicked: boolean = false;
-  activeSection: string = "";
+  activeSection: boolean = false;
 
   constructor(private translate: TranslateService){}
   
@@ -22,6 +22,9 @@ export class NavbarComponent {
     this.isclicked = !this.isclicked;
   }
 
+  isActive() {
+    this.activeSection = true;
+  }
   changeLanguage(language: string) {
     this.translate.use(language);
   }

@@ -58,6 +58,7 @@ export class ContactFormComponent {
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
       console.log('Form submitted');
       ngForm.resetForm();
+      this.formSubmitted = false;
     }
   }
 }

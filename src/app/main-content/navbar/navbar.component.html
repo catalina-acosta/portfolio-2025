@@ -22,10 +22,10 @@
         <div class="nav-wrapper"> 
             <img src="./assets/graphics/logo/Variant3.svg" alt="">
             <div class="nav-links">
-                <a href="#about">Why me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#about" >{{'navbar.nav1' | translate}}</a>
+                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#skills">{{'navbar.nav2' | translate}}</a>
+                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#projects">{{'navbar.nav3' | translate}}</a>
+                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#contact">{{'navbar.nav4' | translate}}</a>
             </div>
             <div class="language">
                 <button class="lang-btn" (click)="changeLanguage('de')">DE</button>

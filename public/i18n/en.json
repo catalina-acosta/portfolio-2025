@@ -1,5 +1,5 @@
 {
-    "navabar": {
+    "navbar": {
         "nav1": "Why me",
         "nav2": "Skills",
         "nav3": "Projects",
@@ -18,42 +18,63 @@
         "currentlyLearningText": "Show that you are motivated to continually improve your skills, implement innovative solutions and stay abreast of new technologies.",
         "button": "Let's talk"
     },
-    "projects": {
-        "sectionTitle": "My Projects",
-        "allProjects": [{
-        "title": "Join",
-        "contentPs": [
-            {
+    "projects-title": "My Projects",
+    "join": {
+    "section1": {
+        "sectionTitle": "About the project",
+        "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+    },
+    "section2": {
+        "sectionTitle": "How I organized my work process",
+        "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+    },
+    "section3": {
+        "sectionTitle": "My group experience",
+        "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+    }
+    },
+    "sharkie": {
+        "section1": {
             "sectionTitle": "About the project",
-            "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
-            },
-            {
-            "sectionTitle": "How I have organized my work process",
-            "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
-            },
-            {
-            "sectionTitle": "My group work experience            ",
-            "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
-            }
-        ]
-    }, 
-    {
-        "title": "Sharkie",
-        "contentPs": [
-            {
+            "text": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the killer whale."
+        },
+        "section2": {
+            "sectionTitle": "How I organized my work process",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        },
+        "section3": {
+            "sectionTitle": "My group experience",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        }
+    },
+    "project3": {
+        "section1": {
             "sectionTitle": "About the project",
-            "text": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
-            },
-            {
-            "sectionTitle": "How I have organized my work process",
-            "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
-            },
-            {
-            "sectionTitle": "My group work experience            ",
-            "text": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
-            }
-        ]
-    }]},
+            "text": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the killer whale."
+        },
+        "section2": {
+            "sectionTitle": "How I organized my work process",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        },
+        "section3": {
+            "sectionTitle": "My group experience",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        }
+    },
+    "project4": {
+        "section1": {
+            "sectionTitle": "About the project",
+            "text": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the killer whale."
+        },
+        "section2": {
+            "sectionTitle": "How I organized my work process",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        },
+        "section3": {
+            "sectionTitle": "My group experience",
+            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        }
+    },
     "references": {
         "title": "Need a teamplayer? Here what my colleagues say about me",
         "references": [

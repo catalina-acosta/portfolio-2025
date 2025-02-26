@@ -20,16 +20,16 @@ export class ProjectsComponent {
       title: "Join",
       contentPs: [
         {
-          sectionTitle: "About the project",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'join.section1.sectionTitle',
+          text: 'join.section1.text'
         },
         {
-          sectionTitle: "How I have organized my work process",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'join.section2.sectionTitle',
+          text: 'join.section2.text'        
         },
         {
-          sectionTitle: "My group work experience            ",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'join.section3.sectionTitle',
+          text: 'join.section3.text'
         },
       ],
       technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
@@ -43,16 +43,16 @@ export class ProjectsComponent {
       title: "Sharkie ",
       contentPs: [
         {
-          sectionTitle: "About the project",          
-          text: "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
+          sectionTitle: 'sharkie.section1.sectionTitle',
+          text: 'sharkie.section1.text'
         },
         {
-          sectionTitle: "How I have organized my work process",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'sharkie.section2.sectionTitle',
+          text: 'sharkie.section2.text'        
         },
         {
-          sectionTitle: "What have I learnt ",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'sharkie.section3.sectionTitle',
+          text: 'sharkie.section3.text'
         },
       ],
       technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
@@ -63,19 +63,19 @@ export class ProjectsComponent {
       img: "./assets/graphics/projects/sharkie.png" 
     },
     {
-      title: "Join",
+      title: "Project 3",
       contentPs: [
         {
-          sectionTitle: "About the project",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project3.section1.sectionTitle',
+          text: 'project3.section1.text'
         },
         {
-          sectionTitle: "How I have organized my work process",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project3.section2.sectionTitle',
+          text: 'project3.section2.text'        
         },
         {
-          sectionTitle: "My group work experience            ",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project3.section3.sectionTitle',
+          text: 'project3.section3.text'
         },
       ],
       technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
@@ -86,19 +86,19 @@ export class ProjectsComponent {
       img: "./assets/graphics/projects/Join.png"  
     },
     {
-      title: "Join",
+      title: "Project4",
       contentPs: [
         {
-          sectionTitle: "About the project",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project4.section1.sectionTitle',
+          text: 'project4.section1.text'
         },
         {
-          sectionTitle: "How I have organized my work process",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project4.section2.sectionTitle',
+          text: 'project4.section2.text'        
         },
         {
-          sectionTitle: "My group work experience            ",
-          text: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. "
+          sectionTitle: 'project4.section3.sectionTitle',
+          text: 'project4.section3.text'
         },
       ],
       technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 

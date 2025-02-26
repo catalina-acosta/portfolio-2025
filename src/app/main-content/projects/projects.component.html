@@ -1,6 +1,6 @@
 <div id="projects" class="content-box">
     <section class="large-container">
-        <h2>{{'projects.sectionTitle' | translate}}</h2>
+        <h2>{{'projects-title' | translate}}</h2>
         <div class="project-menu">
             <div class="project-menu-box">
                 @for (project of projectList; track $index){
@@ -18,9 +18,8 @@
                             <img src="./assets/graphics/projects/Ellipse 8.svg" alt="">
                         </div>
                         <div class="project-main-details">
-                            <h5>{{'projects[$index].allProjects.title' | translate}}</h5>
-                            <h5>{{item.sectionTitle}}</h5>
-                            <p>{{item.text}}</p>
+                            <h5>{{item.sectionTitle | translate}}</h5>
+                            <p>{{item.text | translate}}</p>
                         </div>
                     </div>
                 }
