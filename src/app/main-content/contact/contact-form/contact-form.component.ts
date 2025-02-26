@@ -25,7 +25,7 @@ export class ContactFormComponent {
   formSubmitted = false;
 
   post = {
-    endPoint: 'https://portfolio.talentcol.com/sendMail.php',
+    endPoint: 'https://catalina-acosta-rivera.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
