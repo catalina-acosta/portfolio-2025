@@ -19,12 +19,26 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 0 12px;
 
+    .legal-text {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+    a {
+        font-size: 18px;
+        color: styles.$dark-grey;
+        &:hover {
+            color: styles.$white;
+        }
+    }
     p {
         margin-bottom: 8px;
         color: styles.$dark-grey;
     }
+    
 
     .socials {
         img {
@@ -62,6 +76,15 @@ footer {
             display: flex;
             flex-direction: row;
             gap: 18px;
+            align-items: center;
+
+            a {
+                font-size: 14px;
+                color: styles.$dark-grey;
+                &:hover {
+                    color: styles.$white;
+                }
+            }
 
             p {
                 font-size: 14px;
