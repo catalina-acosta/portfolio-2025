@@ -9,7 +9,7 @@
                             <h6>{{reference.name}}</h6>
                             <p>Project <span>{{reference.project}}</span></p>
                         </div>
-                        <p>{{reference.refText}}</p>
+                        <p>{{reference.refText | translate}}<p>
                         <a href="{{reference.linkedin}}">Linked In Profile</a>
                     </div>
                     <img (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)"
