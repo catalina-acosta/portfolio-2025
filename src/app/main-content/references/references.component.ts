@@ -17,7 +17,7 @@ export class ReferencesComponent {
     },
     {name: "Caryen Song", 
       project: "Join", 
-      refText: 'references.reference1',
+      refText: 'contact.title',
       linkedin: "#",
       hovered: false,
     },

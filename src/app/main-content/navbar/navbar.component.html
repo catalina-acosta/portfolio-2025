@@ -22,10 +22,10 @@
         <div class="nav-wrapper"> 
             <img src="./assets/graphics/logo/Variant3.svg" alt="">
             <div class="nav-links">
-                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#about" >{{'navbar.nav1' | translate}}</a>
-                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#skills">{{'navbar.nav2' | translate}}</a>
-                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#projects">{{'navbar.nav3' | translate}}</a>
-                <a [ngClass]="{'active': activeSection, '': !activeSection}" (click)="isActive()" href="#contact">{{'navbar.nav4' | translate}}</a>
+                <a (click)="setActive('about')" [ngClass]="{'active': activeSection ==='about'}"  href="#about" >{{'navbar.nav1' | translate}}</a>
+                <a (click)="setActive('skills')" [ngClass]="{'active': activeSection === 'skills'}" href="#skills">{{'navbar.nav2' | translate}}</a>
+                <a (click)="setActive('projects')" [ngClass]="{'active': activeSection === 'projects'}" href="#projects">{{'navbar.nav3' | translate}}</a>
+                <a (click)="setActive('contact') "[ngClass]="{'active': activeSection === 'contact'}" href="#contact">{{'navbar.nav4' | translate}}</a>
             </div>
             <div class="language">
                 <button class="lang-btn" (click)="changeLanguage('de')">DE</button>

@@ -3,18 +3,17 @@ import { CommonModule } from '@angular/common';
 import {
   TranslateService,
   TranslatePipe,
-  TranslateDirective
 } from "@ngx-translate/core";
 
 @Component({
   selector: 'app-navbar',
-  imports: [CommonModule, TranslatePipe, TranslateDirective],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
   isclicked: boolean = false;
-  activeSection: boolean = false;
+  activeSection: string = "";
 
   constructor(private translate: TranslateService){}
   
@@ -22,8 +21,12 @@ export class NavbarComponent {
     this.isclicked = !this.isclicked;
   }
 
-  isActive() {
-    this.activeSection = true;
+  setActive(link: string) {
+    this.activeSection = link;
+  }
+
+  setActiveLanguage() {
+
   }
   changeLanguage(language: string) {
     this.translate.use(language);
