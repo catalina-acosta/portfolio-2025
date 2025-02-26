@@ -76,20 +76,23 @@
     },
     "references": {
         "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich sagen",
-        "references": [
-            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
-            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
-            "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’"
-        ]
+        "reference1":"‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
+        "reference2": "‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’",
+        "reference3":"‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’"
     },
     "contact": {
         "title": "Kontaktieren Sie mich",
         "description": "Ermutigen Sie die Leute, Sie zu kontaktieren, und beschreiben Sie, welche Rolle Sie interessiert. Zeigen Sie, dass Sie durch Ihre Arbeit einen Mehrwert für ihre Projekte schaffen werden. Beispiel: Zögern Sie nicht, sich mit Jobangeboten oder Möglichkeiten wie:",
-        "emailLabel": "Ihre E-Mail",
-        "nameLabel": "Ihr Name",
-        "messageLabel": "Ihre Nachricht",
+        "emailLabelValid": "Ihre E-Mail",
+        "emailLabelInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "nameLabelValid": "Ihr Name",
+        "nameLabelInvalid": "Bitte geben Sie einen gültigen Namen ein",
+        "messageLabelValid": "Ihre Nachricht",
+        "messageLabelInvalid": "Bitte geben Sie eine gültige Nachricht ein",
         "submitButton": "Absenden",
-        "privacyPolicy": "Ich habe die Datenschutzrichtlinie gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+        "privacyPolicy1": "Ich habe die ",
+        "privacyPolicySpan": "Datenschutzrichtlinie ",
+        "privacyPolicy2": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
         "button": "Absenden"
     }
 }
