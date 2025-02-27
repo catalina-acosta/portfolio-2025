@@ -2,35 +2,35 @@
     <div class="email-name-wrapper">
         <div class="input-container">
 
-            <label [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched }" for="name">
+            <label [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched, 'default': name.untouched}" for="name">
                 @if(!name.valid && name.touched) {
                     {{'contact.nameLabelInvalid' | translate}}
                 } @else {
                     {{'contact.nameLabelValid' | translate}}
                 } 
             </label>
-            <input [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched }" #name="ngModel" [(ngModel)]="contactData.name" type="text" id="text" name="text" required minlength="4">
+            <input [ngClass]="{'valid': name.valid && name.touched, 'invalid': !name.valid && name.touched, 'default': name.untouched }" #name="ngModel" [(ngModel)]="contactData.name" type="text" id="text" name="text" required minlength="4">
         </div>
         <div class="input-container">
-            <label [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched }" for="email">
+            <label [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched, 'default': email.untouched }" for="email">
                 @if (!email.valid && email.touched) {
                     {{'contact.emailLabelInvalid' | translate}}
                 } @else {
                     {{'contact.emailLabelValid' | translate}}
                 }
             </label>
-            <input [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched }" #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email" minlength="4" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+            <input [ngClass]="{'valid': email.valid && email.touched, 'invalid': !email.valid && email.touched, 'default': email.untouched }" #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email" minlength="4" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
         </div>
     </div>
     <div class="input-container">
-        <label [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched }" for="message">
+        <label [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched, 'default': message.untouched }" for="message">
             @if (!message.valid && message.touched) {
-                {{'contact.messageLabelinValid' | translate}}
+                {{'contact.messageLabelInvalid' | translate}}
             } @else {
                 {{'contact.messageLabelValid' | translate}}
             }
         </label>
-        <textarea [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched }" #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" id="message"  required></textarea>
+        <textarea [ngClass]="{'valid': message.valid && message.touched, 'invalid': !message.valid && message.touched, 'default': message.untouched }" #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" id="message"  required></textarea>
     </div>
     <div class="privacy-p-wrapper">
         @if(privacyPolicyChecked) {
