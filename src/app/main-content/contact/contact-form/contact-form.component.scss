@@ -40,6 +40,14 @@ form {
         gap: 8px;
         margin-top: 12px;
 
+        a {
+            font-size: 18px;
+            color: styles.$light-blue;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
         img {
             &:hover {
                 cursor: pointer;

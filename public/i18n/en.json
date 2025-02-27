@@ -113,6 +113,43 @@
         "imageCreditsOwner": "The image rights are held by: Developer Academy",
         "textCopyright": "All texts are protected by copyright.",
         "source": "Source: Created with the Legal Notice Generator from AdSimple"
+    },
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "description": "Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our website, [Your Website], and other sites we own and operate.",
+        "section1Title": "1. Information We Collect",
+        "section1Description": "We only collect information about you if we have a reason to do so – for example, to provide our services, to communicate with you, or to make our services better. We collect information in three ways: if and when you provide information to us, automatically through operating our services, and from outside sources.",
+        "section2Title": "2. How We Use Information",
+        "section2Description": "We use the information we collect in various ways, including to:",
+        "section2List": {
+            "item1": "Provide, operate, and maintain our website",
+            "item2": "Improve, personalize, and expand our website",
+            "item3": "Understand and analyze how you use our website",
+            "item4": "Develop new products, services, features, and functionality",
+            "item5": "Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes",
+            "item6": "Process your transactions",
+            "item7": "Send you emails",
+            "item8": "Find and prevent fraud"
+        },
+        "section3Title": "3. Sharing Information",
+        "section3Description": "We do not share your personal information publicly or with third parties except when required to by law.",
+        "section4Title": "4. Data Retention",
+        "section4Description": "We will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.",
+        "section5Title": "5. Your Data Protection Rights",
+        "section5Description": "Depending on your location, you may have the following rights regarding your personal data:",
+        "section5List": {
+            "item1": "The right to access – You have the right to request copies of your personal data.",
+            "item2": "The right to rectification – You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.",
+            "item3": "The right to erasure – You have the right to request that we erase your personal data, under certain conditions.",
+            "item4": "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.",
+            "item5": "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.",
+            "item6": "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions."
+        },
+        "section6Title": "6. Changes to This Privacy Policy",
+        "section6Description": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.",
+        "section7Title": "7. Contact Us",
+        "section7Description": "If you have any questions about this Privacy Policy, please contact us:",
+        "contactEmail": "Email: catalina.acosta.rivera@gmail.com"
     }
     
 }

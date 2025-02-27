@@ -35,16 +35,16 @@
     <div class="privacy-p-wrapper">
         @if(privacyPolicyChecked) {
             <img src="./assets/graphics/contact/checkbox/Property 1=Checked.svg" alt="" (click)="togglePrivacyPolicyChecked()">
-            <p>{{'contact.privacyPolicy1' | translate}} <span>{{'contact.privacyPolicySpan' | translate}}</span>{{'contact.privacyPolicy2' | translate}}</p>
+            <p>{{'contact.privacyPolicy1' | translate}} <span><a [routerLink]="'privacy-policy'">{{'contact.privacyPolicySpan' | translate}}</a></span>{{'contact.privacyPolicy2' | translate}}</p>
         } @else if(!privacyPolicyChecked && formSubmitted) {
             <img src="./assets/graphics/contact/checkbox/Ellipse 32red.svg" alt="" (click)="togglePrivacyPolicyChecked();isFormSubmitted()">
             <div class="privacy-policy-box">
-                <p>{{'contact.privacyPolicy1' | translate}} <span>{{'contact.privacyPolicySpan' | translate}}</span>{{'contact.privacyPolicy2' | translate}}</p>
+                <p>{{'contact.privacyPolicy1' | translate}} <span><a [routerLink]="'privacy-policy'">{{'contact.privacyPolicySpan' | translate}}</a></span>{{'contact.privacyPolicy2' | translate}}</p>
                 <p class="invalid">Please accept the privacy policy</p>
             </div>
         } @else {
             <img src="./assets/graphics/contact/checkbox/Property 1=Default (3).svg" alt="" (click)="togglePrivacyPolicyChecked()">
-<p>{{'contact.privacyPolicy1' | translate}} <span>{{'contact.privacyPolicySpan' | translate}}</span>{{'contact.privacyPolicy2' | translate}}</p>
+<p>{{'contact.privacyPolicy1' | translate}} <span><a [routerLink]="'privacy-policy'">{{'contact.privacyPolicySpan' | translate}}</a></span>{{'contact.privacyPolicy2' | translate}}</p>
         }
     </div>
     <div class="btn-wrapper">

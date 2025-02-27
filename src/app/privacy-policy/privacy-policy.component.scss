@@ -15,15 +15,25 @@ h2 {
     font-size: 36px;
 }
 
+h3 {
+    margin: 12px 0;
+    font-size: 32px;
+    color: styles.$light-blue;
+}
+
 a {
     font-size: 18px;
     padding: 0 4px;
     text-decoration: underline;
 }
 
-p {
+p, li {
     line-height: 24px;
     font-size: 18px;
+}
+
+li {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @media screen and (max-width: 940px) {
@@ -37,12 +47,13 @@ p {
 @media screen and (max-width:498px) {
 
     .small-content-wrapper {
+        
     }
-    p, a {
+    p, a, li {
         font-size: 14px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 32px;
     }
 }

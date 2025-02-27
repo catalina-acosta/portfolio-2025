@@ -112,5 +112,42 @@
         "imageCreditsOwner": "Die Bilderrechte liegen bei: Developer Akademie",
         "textCopyright": "Alle Texte sind urheberrechtlich geschützt.",
         "source": "Quelle: Erstellt mit dem Impressum Generator von AdSimple"
+    }, 
+    "privacyPolicy": {
+        "title": "Datenschutzrichtlinie",
+        "description": "Ihre Privatsphäre ist uns wichtig. Es ist unsere Richtlinie, Ihre Privatsphäre in Bezug auf alle Informationen zu respektieren, die wir von Ihnen über unsere Website, [Ihre Website], und andere Websites, die wir besitzen und betreiben, sammeln.",
+        "section1Title": "1. Informationen, die wir sammeln",
+        "section1Description": "Wir sammeln nur Informationen über Sie, wenn wir einen Grund dazu haben – zum Beispiel, um unsere Dienstleistungen bereitzustellen, mit Ihnen zu kommunizieren oder unsere Dienstleistungen zu verbessern. Wir sammeln Informationen auf drei Arten: wenn und wann Sie uns Informationen zur Verfügung stellen, automatisch durch den Betrieb unserer Dienstleistungen und aus externen Quellen.",
+        "section2Title": "2. Wie wir Informationen verwenden",
+        "section2Description": "Wir verwenden die gesammelten Informationen auf verschiedene Weise, einschließlich:",
+        "section2List": {
+            "item1": "Bereitstellung, Betrieb und Wartung unserer Website",
+            "item2": "Verbesserung, Personalisierung und Erweiterung unserer Website",
+            "item3": "Verstehen und Analysieren, wie Sie unsere Website nutzen",
+            "item4": "Entwicklung neuer Produkte, Dienstleistungen, Funktionen und Funktionalitäten",
+            "item5": "Kommunikation mit Ihnen, entweder direkt oder über einen unserer Partner, einschließlich für den Kundendienst, um Ihnen Updates und andere Informationen in Bezug auf die Website bereitzustellen, sowie für Marketing- und Werbezwecke",
+            "item6": "Bearbeitung Ihrer Transaktionen",
+            "item7": "Versenden von E-Mails an Sie",
+            "item8": "Erkennung und Verhinderung von Betrug"
+        },
+        "section3Title": "3. Weitergabe von Informationen",
+        "section3Description": "Wir geben Ihre persönlichen Informationen nicht öffentlich oder an Dritte weiter, außer wenn dies gesetzlich vorgeschrieben ist.",
+        "section4Title": "4. Datenaufbewahrung",
+        "section4Description": "Wir werden Ihre persönlichen Informationen nur so lange aufbewahren, wie es für die in dieser Datenschutzrichtlinie festgelegten Zwecke erforderlich ist. Wir werden Ihre Informationen in dem Umfang aufbewahren und verwenden, wie es erforderlich ist, um unseren gesetzlichen Verpflichtungen nachzukommen, Streitigkeiten beizulegen und unsere Richtlinien durchzusetzen.",
+        "section5Title": "5. Ihre Datenschutzrechte",
+        "section5Description": "Je nach Ihrem Standort haben Sie möglicherweise die folgenden Rechte in Bezug auf Ihre persönlichen Daten:",
+        "section5List": {
+            "item1": "Das Recht auf Zugang – Sie haben das Recht, Kopien Ihrer persönlichen Daten anzufordern.",
+            "item2": "Das Recht auf Berichtigung – Sie haben das Recht, von uns zu verlangen, dass wir alle Informationen korrigieren, die Sie für ungenau halten, oder Informationen vervollständigen, die Sie für unvollständig halten.",
+            "item3": "Das Recht auf Löschung – Sie haben das Recht, von uns zu verlangen, dass wir Ihre persönlichen Daten unter bestimmten Bedingungen löschen.",
+            "item4": "Das Recht auf Einschränkung der Verarbeitung – Sie haben das Recht, von uns zu verlangen, dass wir die Verarbeitung Ihrer persönlichen Daten unter bestimmten Bedingungen einschränken.",
+            "item5": "Das Recht auf Widerspruch gegen die Verarbeitung – Sie haben das Recht, der Verarbeitung Ihrer persönlichen Daten durch uns unter bestimmten Bedingungen zu widersprechen.",
+            "item6": "Das Recht auf Datenübertragbarkeit – Sie haben das Recht, von uns zu verlangen, dass wir die von uns gesammelten Daten an eine andere Organisation oder direkt an Sie unter bestimmten Bedingungen übertragen."
+        },
+        "section6Title": "6. Änderungen dieser Datenschutzrichtlinie",
+        "section6Description": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen. Sie werden darauf hingewiesen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen dieser Datenschutzrichtlinie treten in Kraft, wenn sie auf dieser Seite veröffentlicht werden.",
+        "section7Title": "7. Kontaktieren Sie uns",
+        "section7Description": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte:",
+        "contactEmail": "E-Mail: catalina.acosta.rivera@gmail.com"
     }
 }

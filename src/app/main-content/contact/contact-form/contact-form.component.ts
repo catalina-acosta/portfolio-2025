@@ -3,10 +3,11 @@ import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import {TranslatePipe} from "@ngx-translate/core";
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-contact-form',
-  imports: [FormsModule, CommonModule, TranslatePipe],
+  imports: [FormsModule, CommonModule, TranslatePipe, RouterModule],
   templateUrl: './contact-form.component.html',
   styleUrl: './contact-form.component.scss'
 })
@@ -26,7 +27,7 @@ export class ContactFormComponent {
   formSubmitted = false;
 
   post = {
-    endPoint: 'http://catalina-acosta-rivera.de/sendMail.php',
+    endPoint: 'https://catalina-acosta-rivera.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
