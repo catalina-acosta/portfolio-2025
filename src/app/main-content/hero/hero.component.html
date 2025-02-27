@@ -1,8 +1,11 @@
 <div id="hero">
     <div class="container">
         <div class="img-container" (mouseenter)="isHovered(true)" (mouseleave)="isHovered(false)">
-            <img alt="Default Image" class="bg-img"
-            [src]="this.hovered ? './assets/graphics/hero/shape_hover.svg': '/assets/graphics/hero/shape (1).svg'">
+            <svg class="bg-svg" width="580" height="616" viewBox="0 0 580 616" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="bg-path-svg " d="M574.72 339.596C548.233 513.645 469.272 608.172 268.369 615.674C56.9723 623.568 0 486.76 0 348.097C0 175.549 122.94 -15.5056 360.824 0.999002C527.743 26.0063 601.208 165.547 574.72 339.596Z" fill="#89BCD9"/>
+            </svg>
+            <!-- <img alt="Default Image" class="bg-img"
+            [src]="this.hovered ? './assets/graphics/hero/shape_hover.svg': '/assets/graphics/hero/shape (1).svg'"> -->
             <img class="img-default-mobile" src=".\assets\graphics\mobile\Ellipse 35.svg" alt="Default Image">
             <img class="hero-photo" src=".\assets\img\catalina_acosta_r.png" alt="">
         </div>
