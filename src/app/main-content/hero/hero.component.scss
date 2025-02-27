@@ -96,7 +96,7 @@
     .container {
         flex-direction: column;
         padding: 0 12px;
-        gap: 108px;
+        gap: 112px;
 
         .img-container {
             
@@ -110,7 +110,7 @@
             }
             
             .hero-photo {
-                height: 369px;
+                height: 356px;
                 border-radius: 40%;
             }
         }
@@ -141,6 +141,7 @@
 
 @media screen and (max-width: 560px) {
     .container {
+        gap: 112px;
         .img-container {
             .img-default-mobile {
                 display: block;
@@ -149,7 +150,7 @@
             
             .hero-photo {
                 height: 349px;
-                border-radius: 40%;
+                border-radius: 44%;
             }
         }
     }

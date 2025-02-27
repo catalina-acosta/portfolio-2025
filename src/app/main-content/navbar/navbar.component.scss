@@ -128,10 +128,11 @@ a {
         justify-content: center;
         height: 18rem;
         z-index: 20;
+        
 
         img {
             position: absolute;
-            width: 312px;
+            width: 338px;
         }
         .navlinks-mobile {
             display: flex;
@@ -166,10 +167,20 @@ a {
     .logo {
         width: 56px;
     }
+
+    .menu-overlay {
+    img {
+        position: absolute;
+    }
+    }
 }
 
 @media screen and (max-width: 455px) {
     .menu-overlay {
         top: 6.5rem;
+        img {
+            position: absolute;
+            width: 300px;
+        }
     }
 }
