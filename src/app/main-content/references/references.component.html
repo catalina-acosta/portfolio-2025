@@ -1,6 +1,10 @@
 <div id="references" class="content-box">
     <section class="large-container">
-        <h4>{{'references.title' | translate}}</h4>
+        <h4 class="title-desktop">{{'references.title' | translate}}</h4>
+        <div class="title-mobile">
+            <h2>Need a teamplayer?</h2>
+            <p>Here what my colleagues say about me</p>
+        </div>
         <div class="references-container">
             @for (reference of refList; track $index) {
                 <div class="references-wrapper" >

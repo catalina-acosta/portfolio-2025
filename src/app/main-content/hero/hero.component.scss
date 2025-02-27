@@ -136,3 +136,18 @@
 
 }
 
+@media screen and (max-width: 560px) {
+    .container {
+        .img-container {
+            .img-default-mobile {
+                display: block;
+                width: 280px;
+            }
+            
+            .hero-photo {
+                height: 349px;
+                border-radius: 40%;
+            }
+        }
+    }
+}

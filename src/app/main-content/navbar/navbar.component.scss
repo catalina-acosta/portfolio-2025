@@ -86,6 +86,13 @@ a {
 }
 
 @media screen and (max-width: 820px) {
+    nav {
+        .nav-wrapper {
+            .nav-links{
+                display: none;
+            }
+        }
+    } 
 
     header {
         background-color: styles.$dark-grey;

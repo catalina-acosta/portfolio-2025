@@ -1,5 +1,12 @@
 @use '../../../styles.scss';
 
+#references {
+    scroll-margin-top: 120px;
+}
+
+.title-mobile {
+    display: none;
+}
 
 .large-container {
     width: 1199px;
@@ -12,6 +19,7 @@
         font-weight: 400;
         color: styles.$light-blue;
         margin-bottom: 56px;
+        text-align: center;
     }
 
     .references-container {
@@ -31,6 +39,7 @@
         width: 360px;
         height: 383px;
         margin-bottom: 24px;
+        position: relative;
 
         .reference-info {
             height: 90%;
@@ -51,17 +60,64 @@
 
         img {
             position: absolute;
+            top: 0;
+            left: 0;
         }
     }
 }
 
 
 @media screen and (max-width: 820px) {
+    .title-desktop {
+        display: none;
+    }
+    .title-mobile {
+        display: block;
+        margin-bottom: 24px;
+        width: 100%;
+        text-align: center;
+        h2 {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+    }
     .large-container{
         .references-container {
             flex-wrap: nowrap;
             overflow-x: scroll;
+            width: 80vw;
+            justify-content: flex-start;
         }
+
+        .references-wrapper {
+            height: 342px;
+            .reference-info {
+                width: 360px;
+            }
+        } 
     }
 
+}
+
+@media screen and (max-width: 448px ) {
+    .large-container {
+        .references-wrapper {
+            height: 268px;
+
+            .reference-info {
+                width: 258px;
+            }
+            img {
+                width: 266px;
+            }
+
+            h6 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
 }
