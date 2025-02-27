@@ -54,9 +54,19 @@ a {
         padding: 0 24px;
     }
 
+    .content-box {
+        margin-bottom: 0;
+    }
+
     .btn-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        
         a {
-            display: none;
+            transform: none;
+            margin-top: 0;
         }
     }
 

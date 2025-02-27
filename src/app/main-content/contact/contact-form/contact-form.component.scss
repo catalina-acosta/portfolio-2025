@@ -26,11 +26,31 @@ form {
             height: 60px;
             resize: vertical;
             padding: 0 18px;
+
+            &.ng-touched {
+                background-color: styles.$projects-grey; /* Change this to your desired color */
+            }
+            &.valid {
+                background-color: styles.$dark-grey;
+            }
+            &.ng-pristine {
+                background-color: styles.$dark-grey;
+            }
         }
 
         textarea {
             height: 164px;
             width: 100%;
+
+            &.ng-touched {
+                background-color: styles.$projects-grey; /* Change this to your desired color */
+            }
+            &.valid {
+                background-color: styles.$dark-grey;
+            }
+            &.ng-pristine {
+                background-color: styles.$dark-grey;
+            }
         }
 
     }
