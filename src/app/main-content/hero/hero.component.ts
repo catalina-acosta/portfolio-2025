@@ -14,7 +14,6 @@ export class HeroComponent {
     this.hovered = hoverStatus;
   }
 
-
   onMouseEnter(icon: string) {
     this.hoveredIcon = icon;
   }
