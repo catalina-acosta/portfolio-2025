@@ -15,6 +15,8 @@ export class ProjectsComponent {
     contentPs: { sectionTitle: string; text: string}[];
     technologies: {name: string, url: string}[];
     img: string;
+    github: string;
+    liveTest: string;
   }[] = [
     {
       title: "Join",
@@ -37,7 +39,9 @@ export class ProjectsComponent {
         {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
         {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
-      img: "./assets/graphics/projects/Join.png" 
+      img: "./assets/graphics/projects/Join.png",
+      github: "https://github.com/catalina-acosta/sharky", 
+      liveTest: "https://catalina-acosta-rivera.de/sharky"
     },
     {
       title: "Sharkie ",
@@ -55,59 +59,15 @@ export class ProjectsComponent {
           text: 'sharkie.section3.text'
         },
       ],
-      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
-        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
+      technologies: [
+        {name: "JavaScript", url:"./assets/graphics/projects/technologies/Javascript (1).svg"}, 
         {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
         {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
-      img: "./assets/graphics/projects/sharkie.png" 
-    },
-    {
-      title: "Project 3",
-      contentPs: [
-        {
-          sectionTitle: 'project3.section1.sectionTitle',
-          text: 'project3.section1.text'
-        },
-        {
-          sectionTitle: 'project3.section2.sectionTitle',
-          text: 'project3.section2.text'        
-        },
-        {
-          sectionTitle: 'project3.section3.sectionTitle',
-          text: 'project3.section3.text'
-        },
-      ],
-      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
-        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
-        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
-        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
-                    ],
-      img: "./assets/graphics/projects/Join.png"  
-    },
-    {
-      title: "Project4",
-      contentPs: [
-        {
-          sectionTitle: 'project4.section1.sectionTitle',
-          text: 'project4.section1.text'
-        },
-        {
-          sectionTitle: 'project4.section2.sectionTitle',
-          text: 'project4.section2.text'        
-        },
-        {
-          sectionTitle: 'project4.section3.sectionTitle',
-          text: 'project4.section3.text'
-        },
-      ],
-      technologies: [{name: "Angular", url:"./assets/graphics/projects/technologies/Angular (1).svg"}, 
-        {name: "Typescript", url:"./assets/graphics/projects/technologies/Typescript.svg"}, 
-        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
-        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
-                    ],
-      img: "./assets/graphics/projects/Join.png"
-    },
+      img: "./assets/graphics/projects/sharkie.png", 
+      github: "https://github.com/catalina-acosta/sharky",
+      liveTest: "https://catalina-acosta-rivera.de/sharky",  
+    }
   ];
 
   setCurrentProject(index: number) {

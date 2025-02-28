@@ -48,7 +48,7 @@ export class ContactFormComponent {
   }
 
   onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
+    if (ngForm.submitted && ngForm.form.valid && !this.mailTest && this.privacyPolicyChecked) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
       .subscribe({
         next: (response) => {
@@ -60,10 +60,11 @@ export class ContactFormComponent {
         complete: () => console.info('send post complete'),
       });
       this.showDialog = true;
+      this.formSubmitted = false;
+      this.privacyPolicyChecked = false;
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
       console.log('Form submitted');
       ngForm.resetForm();
-      this.formSubmitted = false;
     }
   }
 }

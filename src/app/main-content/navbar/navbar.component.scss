@@ -122,13 +122,17 @@ a {
     .menu-overlay {
         display: flex;
         position: absolute;
-        top: 8rem;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 18rem;
+        justify-content: flex-start;
+        height: 100vh;
+        background-color: styles.$dark-grey;
         z-index: 20;
         
+        .menu-wrapper {
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }            
 
         img {
             position: absolute;

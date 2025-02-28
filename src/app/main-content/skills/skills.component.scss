@@ -1,7 +1,7 @@
 @use '../../../styles.scss';
 
 #skills {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 98px;
 }
 
 .skills-wrapper {
@@ -91,6 +91,9 @@
 }
 
 @media screen and (max-width: 820px) {
+    #skills {
+        scroll-margin-top: 40px;
+    }
     h2 {
         margin-bottom: 40px;
     }
