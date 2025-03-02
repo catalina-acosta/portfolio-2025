@@ -57,7 +57,7 @@ export class ContactFormComponent {
         error: (error) => {
           console.error(error);
         },
-        complete: () => console.info('send post complete'),
+        complete: () => console.info(''),
       });
       this.showDialog = true;
       this.formSubmitted = false;

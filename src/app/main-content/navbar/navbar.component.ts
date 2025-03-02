@@ -12,15 +12,10 @@ import {
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  isclicked: boolean = false;
   activeSection: string = "";
   currentLanguage: string = "en";
 
   constructor(private translate: TranslateService){}
-  
-  toggleMenu() {
-    this.isclicked = !this.isclicked;
-  }
 
   setActive(link: string) {
     this.activeSection = link;
