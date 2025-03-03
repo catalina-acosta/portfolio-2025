@@ -59,6 +59,7 @@ a {
     }
     a {
         transform: translate(40px, 6px);
+        z-index: -1;
     }
 }
 
@@ -69,9 +70,6 @@ a {
 }
 
 @media screen and (max-width:740px) {
-    #contact {
-        scroll-margin-top: 40px;
-    }
 
     h2 {
         margin-bottom: 36px;

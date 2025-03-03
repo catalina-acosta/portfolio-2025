@@ -66,6 +66,7 @@
 .hero-photo {
     height: 683px;
     position: absolute;
+    z-index: 10;
 }
 
 @media screen and (max-width: 1060px) {
@@ -103,11 +104,10 @@
         flex-direction: column;
         padding: 0 12px;
         gap: 112px;
-        margin-top: 82px;
         align-items: center;
 
         .img-container {
-            
+            z-index: -1;
             .bg-svg {
                 display: none;
             }
