@@ -10,10 +10,12 @@
                 <div class="references-wrapper" >
                     <div class="reference-info">
                         <div class="ref-title" >
-                            <h6>{{reference.name}}</h6>
+                            <h6>{{reference.name | translate }}</h6>
                             <p>Project <span>{{reference.project}}</span></p>
                         </div>
-                        <p>{{reference.refText | translate}}<p>
+                        <div class="reference-container">
+                            <p>{{reference.refText | translate}}<p>
+                        </div>
                         <a href="{{reference.linkedin}}">Linked In Profile</a>
                     </div>
                     <img (mouseenter)="toggleHovered(true, $index)" (mouseleave)="toggleHovered(false, $index)"

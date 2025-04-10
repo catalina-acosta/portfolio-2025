@@ -77,8 +77,11 @@
     },
     "references": {
         "title": "Need a teamplayer? Here what my colleagues say about me",
-        "reference1": "‘’Catalina had to develop, format and deliver content in collaboration with the team members. She is a reliable and friendly person.’’",
-        "reference2": "‘’Catalina had to develop, format and deliver content in collaboration with the team members. She is a reliable and friendly person.’’",
+        "reference1Name": "Caryen Song",
+        "reference1": "‘’Working with Catalina is always a pleasure. She is a reliable and dedicated team member who works efficiently and with great structure. Her helpfulness and attention to overall organization are impressive. Additionally, communication and collaboration with her are always smooth and enjoyable.’’",
+        "reference2Name": "Barbora Lambeinova",
+        "reference2": "‘’I worked with Catalina on our largest team project. With remarkable ease, she took on the task of structuring the core framework and implemented it with natural leadership skills and great empathy. Nevertheless, she remained one of the fastest and most efficient team members, with a strong focus on clean code and optimized solutions, especially for Firebase-related tasks. I truly enjoyed working with her and would gladly do so again at any time.’’",
+        "reference3Name": "Albina Januzi",
         "reference3":"‘’Catalina had to develop, format and deliver content in collaboration with the team members. She is a reliable and friendly person.’’"
     },
     "contact": {

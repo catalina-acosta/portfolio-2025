@@ -9,19 +9,19 @@ import {TranslatePipe} from "@ngx-translate/core";
 })
 export class ReferencesComponent {
   refList: {name: string; project: string; refText: string; linkedin: string; hovered: boolean}[] = [
-    {name: "Caryen Song", 
+    {name: 'references.reference1Name',
       project: "Join", 
       refText: 'references.reference1',      
       linkedin: "#",
       hovered: false,
     },
-    {name: "Caryen Song", 
+    {name: 'references.reference2Name', 
       project: "Join", 
       refText: 'references.reference2',
       linkedin: "#",
       hovered: false,
     },
-    {name: "Caryen Song", 
+    {name: 'references.reference3Name', 
       project: "Join", 
       refText: 'references.reference2',      
       linkedin: "#",

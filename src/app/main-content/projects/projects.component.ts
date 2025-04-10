@@ -39,7 +39,7 @@ export class ProjectsComponent {
         {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
         {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
-      img: "./assets/graphics/projects/Join.png",
+      img: "./assets/img/join.png",
       github: "https://github.com/catalina-acosta/sharky", 
       liveTest: "https://catalina-acosta-rivera.de/sharky"
     },
@@ -64,7 +64,7 @@ export class ProjectsComponent {
         {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
         {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
-      img: "./assets/graphics/projects/sharkie.png", 
+      img: "./assets/img/sharky.png", 
       github: "https://github.com/catalina-acosta/sharky",
       liveTest: "https://catalina-acosta-rivera.de/sharky",  
     }

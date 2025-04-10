@@ -85,6 +85,20 @@
     }
 }
 
+.project-img-wrapper {
+    width: 454px;
+    height: 312px;
+    overflow: hidden;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 500px;
+    }
+}
+
 .button-wrapper-mobile {
     display: none;
     button {
