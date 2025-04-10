@@ -58,9 +58,15 @@
             gap: 12px;
         }
 
+        .title-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            gap: 24px;
+            margin-bottom: 16px;
+        }
         h5 {
             font-weight: 400;
-            margin-bottom: 8px;
         }
     }
 
@@ -106,7 +112,7 @@
     }
 }
 
-.project-title, .icon-name, .tech-names {
+.project-title, .icon-name, .tech-names, .duration-mobile {
     display: none;
 }
 
@@ -124,10 +130,7 @@
     p {
         font-size: 16px;
     }
-
-    .project-img {
-        width: 400px;
-    }
+    
     .img-wrapper {
         img {
             width: 24px;
@@ -152,10 +155,12 @@
         }
     }
 
-    .project-details {
-        .project-img {
-            width: 332px;
-        }
+    .duration {
+        display: none;
+    }
+
+    .duration-mobile {
+        display: block;
     }
 
     .project-display-box {
@@ -216,7 +221,22 @@
     .icon-name {
         display: block;
     }
+
+    .project-img-box {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .project-img-wrapper {
+        width: 400px;
+        height: 280px;
+        img {
+            width: 444px;
+        }
+    }
 }
+
 
 @media screen and (max-width: 572px) {
     h2 {
@@ -240,6 +260,14 @@
     .project-details {
         .project-img {
             width: 269px;
+        }
+    }
+
+    .project-img-wrapper {
+        width: 269px;
+        height: 167px;
+        img {
+            width: 300px;
         }
     }
 }

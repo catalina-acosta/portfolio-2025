@@ -12,7 +12,8 @@ export class ProjectsComponent {
   currentProject: number = 0;
   projectList:{
     title: string; 
-    contentPs: { sectionTitle: string; text: string}[];
+    duration: string;
+    contentPs: { sectionTitle: string; duration: string; text: string}[];
     technologies: {name: string, url: string}[];
     img: string;
     github: string;
@@ -20,17 +21,21 @@ export class ProjectsComponent {
   }[] = [
     {
       title: "Join",
+      duration: "join.duration",
       contentPs: [
         {
           sectionTitle: 'join.section1.sectionTitle',
+          duration: "join.duration",
           text: 'join.section1.text'
         },
         {
           sectionTitle: 'join.section2.sectionTitle',
+          duration: "",
           text: 'join.section2.text'        
         },
         {
           sectionTitle: 'join.section3.sectionTitle',
+          duration: "",
           text: 'join.section3.text'
         },
       ],
@@ -41,21 +46,25 @@ export class ProjectsComponent {
                     ],
       img: "./assets/img/join.png",
       github: "https://github.com/catalina-acosta/sharky", 
-      liveTest: "https://catalina-acosta-rivera.de/sharky"
+      liveTest: "https://catalina-acosta-rivera.de/join"
     },
     {
-      title: "Sharkie ",
+      title: "Sharky",
+      duration: "sharkie.duration",
       contentPs: [
         {
           sectionTitle: 'sharkie.section1.sectionTitle',
+          duration: "sharkie.duration",
           text: 'sharkie.section1.text'
         },
         {
           sectionTitle: 'sharkie.section2.sectionTitle',
+          duration: "",
           text: 'sharkie.section2.text'        
         },
         {
           sectionTitle: 'sharkie.section3.sectionTitle',
+          duration: "",
           text: 'sharkie.section3.text'
         },
       ],

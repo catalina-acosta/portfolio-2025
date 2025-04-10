@@ -18,7 +18,10 @@
                             <img src="./assets/graphics/projects/Ellipse 8.svg" alt="">
                         </div>
                         <div class="project-main-details">
-                            <h5>{{item.sectionTitle | translate}}</h5>
+                            <div class="title-wrapper">
+                                <h5>{{item.sectionTitle | translate}}</h5>
+                                <p class="duration">{{item.duration | translate}}</p>
+                            </div>
                             <p>{{item.text | translate}}</p>
                         </div>
                     </div>
@@ -32,14 +35,17 @@
                 <h4 class="project-title" >{{projectList[currentProject].title}}</h4>
                 <p class="tech-icons-title">Technologies: </p>
                 <p class="tech-names">Technologies: {{getTechnologiesString()}}</p>
+                <p class="duration-mobile">{{projectList[currentProject].duration| translate}}</p>
                 <div class="tech-icons">
                     @for (item of projectList[this.currentProject].technologies; track $index){
                         <img src="{{item.url}}" alt="{{item.name}}">
                         <p class="icon-name">{{item.name}}</p>
                     }
                 </div>
-                <div class="project-img-wrapper">
-                    <img class="project-img" src="{{projectList[this.currentProject].img}}" alt="">
+                <div class="project-img-box">
+                    <div class="project-img-wrapper">
+                        <img class="project-img" src="{{projectList[this.currentProject].img}}" alt="">
+                    </div>
                 </div>
                 <div class="button-wrapper-desktop">
                     <a href="{{projectList[this.currentProject].liveTest}}" target="_blank" rel="noopener noreferrer"><button class="btn-primary">Live Test</button></a>

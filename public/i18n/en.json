@@ -31,7 +31,8 @@
     "section3": {
         "sectionTitle": "My group experience",
         "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
-    }
+    },
+        "duration": "Duration: 3 weeks"
     },
     "sharkie": {
         "section1": {
@@ -45,7 +46,8 @@
         "section3": {
             "sectionTitle": "My group experience",
             "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
-        }
+        }, 
+        "duration": "Duration: 2 weeks"
     },
     "project3": {
         "section1": {

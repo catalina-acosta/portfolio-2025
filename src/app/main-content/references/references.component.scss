@@ -51,6 +51,10 @@
                 text-decoration: underline;
                 font-weight: 400;
                 font-size: 16px;
+                z-index: 22;
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
 
