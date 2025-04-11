@@ -8,13 +8,14 @@
     "about": {
         "title": "Warum ich",
         "location": "Ich befinde mich in Regensburg...",
-        "information": "Warum sind Sie leidenschaftlich am Programmieren interessiert? Sie können einige wichtige Eigenschaften wie: analytisches Denken, Kreativität, Ausdauer und Zusammenarbeit einbeziehen. Eine problemlösende Denkweise ist immer gut zu haben.",
+        "information1": "Ich bin eine Frontend-Entwicklerin mit Erfahrung im Erstellen digitaler Produkte mit JavaScript, TypeScript und Angular. Mit einem Hintergrund in Design und Produktmanagement bringe ich eine nutzerorientierte Denkweise in jedes Projekt ein, an dem ich arbeite.",
+        "information2": "Ich kombiniere gerne analytisches Denken mit Kreativität, um saubere, intuitive Schnittstellen zu entwickeln, die reale Bedürfnisse adressieren. Ich arbeite gerne im Team zusammen, kann aber auch eigenständig Projekte umsetzen.",
         "button": "Lass uns reden"
     },
     "skills": {
         "title": "Meine Fähigkeiten",
         "currentLearning": "Was ich derzeit lerne",
-        "currentlyLearningText": "Zeigen Sie, dass Sie motiviert sind, Ihre Fähigkeiten kontinuierlich zu verbessern, innovative Lösungen zu implementieren und über neue Technologien auf dem Laufenden zu bleiben.",
+        "currentlyLearningText": "",
         "button": "Lass uns reden"
     },
     "projects-title": "Meine Projekte",
@@ -22,14 +23,14 @@
         "section1": {
             "sectionTitle": "Über das Projekt",
             "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }, 
+        },
         "section2": {
             "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }, 
+            "text": "Nachdem ich das Design in Figma erhalten hatte, habe ich das Projekt in Funktionen unterteilt, dabei immer Abhängigkeiten berücksichtigt, und den Workflow für unser Team mit Trello strukturiert. Dies ermöglichte es uns, parallel an verschiedenen Teilen des Projekts zu arbeiten und die Frist erfolgreich einzuhalten."
+        },
         "section3": {
             "sectionTitle": "Meine Gruppenerfahrung",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            "text": "In diesem Gruppenprojekt habe ich die Rolle des Teamleiters übernommen und war für die Strukturierung des Projekt-Workflows verantwortlich. Wir hielten tägliche Meetings ab, um unseren Fortschritt und auftretende Probleme zu besprechen. Dies half uns, Hindernisse schnell zu identifizieren und effektive Lösungen zu finden."
         },
         "duration": "Dauer: 3 Wochen"
     },
@@ -37,44 +38,31 @@
         "section1": {
             "sectionTitle": "Über das Projekt",
             "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
-        }, 
+        },
         "section2": {
             "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }, 
+            "text": "Zuerst habe ich den Workflow basierend auf den User Stories im Spiel organisiert. Ich konzentrierte mich auf die Hauptfunktionen, arbeitete von außen nach innen und kümmerte mich später um kleinere Details. Während des gesamten Prozesses habe ich die 80/20-Regel beachtet, was mir half, meine Zeit effizient zu nutzen und die Frist problemlos einzuhalten."
+        },
         "section3": {
-            "sectionTitle": "Meine Gruppenerfahrung",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+            "sectionTitle": "Was ich gelernt habe",
+            "text": "Der herausforderndste Teil des Spiels war die Koordination der Animationen jedes beweglichen Objekts. Es war jedoch eine wertvolle Lernerfahrung, die mir beibrachte, wie man Animationen mit Timeouts implementiert und ein effektives Layout mit mehreren Elementen erstellt."
         },
         "duration": "Dauer: 2 Wochen"
     },
-    "project3": {
+    "pokedex": {
         "section1": {
             "sectionTitle": "Über das Projekt",
-            "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
-        }, 
+            "text": "Eine JavaScript-basierte Website, die Pokémon-Daten aus einer API abruft und als Karten anzeigt."
+        },
         "section2": {
             "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }, 
+            "text": "Zuerst suchte ich nach Inspiration für das Design und erstellte eine Skizze, wie die Seite aussehen sollte. Dann konzentrierte ich mich auf die Funktionalität, rief Daten von der PokeAPI ab und zeigte die relevanten Informationen auf der Webseite an. Schließlich konzentrierte ich mich auf das Styling."
+        },
         "section3": {
-            "sectionTitle": "Meine Gruppenerfahrung",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }
-    },
-    "project4": {
-        "section1": {
-            "sectionTitle": "Über das Projekt",
-            "text": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
-        }, 
-        "section2": {
-            "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }, 
-        "section3": {
-            "sectionTitle": "Meine Gruppenerfahrung",
-            "text": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
-        }
+            "sectionTitle": "Was ich gelernt habe",
+            "text": "Die wertvollste Lernerfahrung war es, durch die API-Daten zu navigieren und sicherzustellen, dass nur die relevanten Informationen geladen oder abgerufen wurden, um die Ladezeit der Seite zu minimieren."
+        },
+        "duration": "Dauer: 1 Woche"
     },
     "references": {
         "title": "Brauchen Sie einen Teamplayer? Hier ist, was meine Kollegen über mich sagen",
@@ -83,11 +71,11 @@
         "reference2Name": "Barbora Lambeinova",
         "reference2": "‘’Mit Catalina habe ich an unserem größten Teamprojekt (Join) gearbeitet. Mit Leichtigkeit hat sie die Hauptstrukturierung übernommen und diese mit natürlichem Führungstalent sowie viel Menschlichkeit umgesetzt. Nichtsdestotrotz blieb sie eine der schnellsten und effizientesten Teammitglieder, mit einem besonderen Fokus auf Clean Code und optimierte Lösungen – insbesondere bei Aufgaben mit Firebase. Die Zusammenarbeit mit ihr hat mir großen Spaß gemacht, und ich würde jederzeit wieder mit ihr arbeiten.’’",
         "reference3Name": "Albina Januzi",
-        "reference3":"‘’Catalina musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Sie ist eine zuverlässige und freundliche Person.’’"
+        "reference3":"‘’Catalina arbeitet sehr zuverlässig und bringt sich engagiert ins Team ein. Sie war immer gut vorbereitet, hat Aufgaben strukturiert angegangen und dabei nie den Überblick verloren. Besonders im Bereich des Board-Features hat sie hervorragende Arbeit geleistet. Sie geht strukturiert an Aufgaben heran und findet auch bei Herausforderungen schnell passende Lösungen.’’"
     },
     "contact": {
         "title": "Kontaktieren Sie mich",
-        "description": "Ermutigen Sie die Leute, Sie zu kontaktieren, und beschreiben Sie, welche Rolle Sie interessiert. Zeigen Sie, dass Sie durch Ihre Arbeit einen Mehrwert für ihre Projekte schaffen werden. Beispiel: Zögern Sie nicht, sich mit Jobangeboten oder Möglichkeiten wie:",
+        "description": "Kontaktieren Sie mich gerne für Jobangebote oder Kooperationsmöglichkeiten. Als Frontend-Entwicklerin freue ich mich darauf, Ihrem Team mit hochwertigen, benutzerzentrierten Webanwendungen einen Mehrwert zu bieten.",
         "emailLabelValid": "Ihre E-Mail",
         "emailLabelInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "nameLabelValid": "Ihr Name",

@@ -9,13 +9,14 @@
         "title": "Why me",
         "span": "I am ",
         "location": "located in Regensburg...",
-        "information": "Why are you passionate about coding? You can include some key traits like: analytical thinking, creativity, persistence and collaboration. A problem-solving mindset is always nice to have.",
+        "information1": "I’m a Frontend Developer with experience in building digital products using JavaScript, TypeScript, and Angular. With a background in design and product management, I bring a user-focused mindset to every project I work on.", 
+        "information2": "I enjoy combining analytical thinking with creativity to craft clean, intuitive interfaces that address real-world needs. I’m always happy to collaborate in a team, but I can also deliver projects independently.",
         "button": "Let's talk"
     },
     "skills": {
         "title": "My Skills",
         "currentLearning": "What I am currently learning",
-        "currentlyLearningText": "Show that you are motivated to continually improve your skills, implement innovative solutions and stay abreast of new technologies.",
+        "currentlyLearningText": "",
         "button": "Let's talk"
     },
     "projects-title": "My Projects",
@@ -26,11 +27,11 @@
     },
     "section2": {
         "sectionTitle": "How I organized my work process",
-        "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        "text": "After receiving the design in Figma, I organized the project into features, always taking dependencies into account, and structured the workflow for our team using Trello. This allowed us to work in parallel on different parts of the project and successfully meet the deadline."
     },
     "section3": {
         "sectionTitle": "My group experience",
-        "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+        "text": "In this group project, I took on the role of team leader and was responsible for structuring the project's workflow. We held daily meetings to discuss our progress and any issues we encountered. This helped us quickly identify obstacles and find effective solutions."
     },
         "duration": "Duration: 3 weeks"
     },
@@ -41,41 +42,28 @@
         },
         "section2": {
             "sectionTitle": "How I organized my work process",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+            "text": "First, I organized the workflow based on the user stories in the game. I focused on the main features, working from the outside in, and addressed smaller details later. I kept the 80/20 rule in mind throughout the process, which helped me manage my time efficiently and meet the deadline without any issues."
         },
         "section3": {
-            "sectionTitle": "My group experience",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+            "sectionTitle": "What I learned",
+            "text": "The most challenging part of the game was coordinating the animations of each movable object. However, it was a valuable learning experience that taught me how to implement animations using timeouts and how to create an effective layout with multiple elements in place."
         }, 
         "duration": "Duration: 2 weeks"
     },
-    "project3": {
+    "pokedex": {
         "section1": {
             "sectionTitle": "About the project",
-            "text": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the killer whale."
+            "text": "A JavaScript-based website that fetches Pokémon data from an API and displays it as cards."
         },
         "section2": {
             "sectionTitle": "How I organized my work process",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
+            "text": "First, I sought inspiration for the design and created a sketch of how the page should look. Then, I focused on the functionality, fetching data from the PokeAPI and displaying the relevant information on the webpage. Finally, I concentrated on styling."
         },
         "section3": {
-            "sectionTitle": "My group experience",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
-        }
-    },
-    "project4": {
-        "section1": {
-            "sectionTitle": "About the project",
-            "text": "A simple jump-and-run game based on an object-oriented approach. Help Sharkie find coins and poison bottles to fight against the killer whale."
+            "sectionTitle": "What I learned",
+            "text": "The most valuable learning experience was navigating through the API data and ensuring that only the relevant information was loaded or fetched, thereby minimizing the page's loading time."
         },
-        "section2": {
-            "sectionTitle": "How I organized my work process",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
-        },
-        "section3": {
-            "sectionTitle": "My group experience",
-            "text": "Task manager inspired by the Kanban system. Create and organize tasks using drag-and-drop functions, assign users and categories."
-        }
+        "duration": "Duration: 1 weeks"
     },
     "references": {
         "title": "Need a teamplayer? Here what my colleagues say about me",
@@ -84,11 +72,11 @@
         "reference2Name": "Barbora Lambeinova",
         "reference2": "‘’I worked with Catalina on our largest team project. With remarkable ease, she took on the task of structuring the core framework and implemented it with natural leadership skills and great empathy. Nevertheless, she remained one of the fastest and most efficient team members, with a strong focus on clean code and optimized solutions, especially for Firebase-related tasks. I truly enjoyed working with her and would gladly do so again at any time.’’",
         "reference3Name": "Albina Januzi",
-        "reference3":"‘’Catalina had to develop, format and deliver content in collaboration with the team members. She is a reliable and friendly person.’’"
+        "reference3":"‘’Catalina is very reliable and actively contributes to the team. She was always well-prepared, approached tasks in a structured manner, and never lost sight of the bigger picture. Particularly in the area of the board feature, she did excellent work. She approaches tasks in an organized way and quickly finds suitable solutions even when faced with challenges.’’"
     },
     "contact": {
         "title": "Contact Me",
-        "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work. Example: Feel free to get in touch with job offers or opportunities such as:",
+        "description": "Don’t hesitate to contact me for job offers or collaboration opportunities. As a Frontend Developer, I’m excited to bring value to your team by delivering high-quality, user-centered web applications.",
         "emailLabelValid": "Your Email",
         "emailLabelInvalid": "Please enter a valid email",
         "nameLabelValid": "Your Name",

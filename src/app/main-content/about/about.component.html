@@ -1,4 +1,4 @@
-<div id="about" class="content-box">
+<div id="about" class="content-box" data-aos="fade-right">
     <section class="small-content-wrapper" >
         <h2>{{'about.title' | translate}}</h2>
         <div class="about-info">
@@ -7,7 +7,10 @@
                 <img class="icon-mobile" src="./assets/graphics/about/remote_mobile.svg" alt="">
                 <h4><span id="typing-text"></span></h4> 
             </div>
-            <p>{{'about.information' | translate}}</p>
+            <div class="info-wrapper">
+                <p>{{'about.information1' | translate}}</p>
+                <p>{{'about.information2' | translate}}</p>
+            </div>
         </div>
         <div class="btn-wrapper">
             <a href="#contact"><button class="btn-secondary">{{'about.button' | translate}}</button></a>

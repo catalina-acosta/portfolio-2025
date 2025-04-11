@@ -11,8 +11,11 @@
         display: flex;
         gap: 24px;
         width: 100%;
-        p {
+        .info-wrapper {
             width: 50%;
+        }
+        p {
+            margin: 12px 0;
         }
     }
 

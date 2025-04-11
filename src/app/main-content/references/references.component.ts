@@ -23,7 +23,7 @@ export class ReferencesComponent {
     },
     {name: 'references.reference3Name', 
       project: "Join", 
-      refText: 'references.reference2',      
+      refText: 'references.reference3',      
       linkedin: "#",
       hovered: false,
     },

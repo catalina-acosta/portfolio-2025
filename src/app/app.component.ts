@@ -1,4 +1,5 @@
-import * as AOS from 'aos';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
@@ -23,5 +24,6 @@ export class AppComponent {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('en');
     this.translate.use('en');
+    Aos.init();
 }
 }

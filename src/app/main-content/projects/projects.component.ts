@@ -45,7 +45,7 @@ export class ProjectsComponent {
         {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
                     ],
       img: "./assets/img/join.png",
-      github: "https://github.com/catalina-acosta/sharky", 
+      github: "https://github.com/catalina-acosta/join", 
       liveTest: "https://catalina-acosta-rivera.de/join"
     },
     {
@@ -76,6 +76,35 @@ export class ProjectsComponent {
       img: "./assets/img/sharky.png", 
       github: "https://github.com/catalina-acosta/sharky",
       liveTest: "https://catalina-acosta-rivera.de/sharky",  
+    },
+    {
+      title: "Pokédex",
+      duration: "pokedex.duration",
+      contentPs: [
+        {
+          sectionTitle: 'pokedex.section1.sectionTitle',
+          duration: "pokedex.duration",
+          text: 'pokedex.section1.text'
+        },
+        {
+          sectionTitle: 'pokedex.section2.sectionTitle',
+          duration: "",
+          text: 'pokedex.section2.text'        
+        },
+        {
+          sectionTitle: 'pokedex.section3.sectionTitle',
+          duration: "",
+          text: 'pokedex.section3.text'
+        },
+      ],
+      technologies: [
+        {name: "JavaScript", url:"./assets/graphics/projects/technologies/Javascript (1).svg"}, 
+        {name: "html", url:"./assets/graphics/projects/technologies/html (1).svg"} ,
+        {name: "css", url: "./assets/graphics/projects/technologies/css (2).svg"},
+                    ],
+      img: "./assets/img/pokedex.png", 
+      github: "https://github.com/catalina-acosta/pokedex",
+      liveTest: "https://catalina-acosta-rivera.de/pokedex",  
     }
   ];
 

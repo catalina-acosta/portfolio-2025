@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslatePipe} from "@ngx-translate/core";
 
+
 @Component({
   selector: 'app-skills',
   imports: [TranslatePipe],
@@ -22,6 +23,9 @@ export class SkillsComponent {
   ];
 
   hovered: boolean = false;
+
+  constructor() {
+  }
 
   toggleHovered(hoverStatus:  boolean) {
     this.hovered = hoverStatus;
