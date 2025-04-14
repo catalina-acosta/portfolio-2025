@@ -7,8 +7,8 @@
     },
     "about": {
         "title": "Why me",
-        "span": "I am ",
-        "location": "located in Regensburg...",
+        "typingText1": " I am located in Regensburg",
+        "typingText2": " I am open to work remote",
         "information1": "I’m a Frontend Developer with experience in building digital products using JavaScript, TypeScript, and Angular. With a background in design and product management, I bring a user-focused mindset to every project I work on.", 
         "information2": "I enjoy combining analytical thinking with creativity to craft clean, intuitive interfaces that address real-world needs. I’m always happy to collaborate in a team, but I can also deliver projects independently.",
         "button": "Let's talk"
