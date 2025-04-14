@@ -15,8 +15,8 @@
     },
     "skills": {
         "title": "Meine Fähigkeiten",
-        "currentLearning": "Was ich derzeit lerne",
-        "currentlyLearningText": "",
+        "currentLearning": "Woran ich aktuell arbeite",
+        "currentlyLearningText": "Die Vertiefung meiner React-Kenntnisse ist mein nächster Schritt, um dynamischere und besser wartbare Benutzeroberflächen zu entwickeln.",
         "button": "Lass uns reden"
     },
     "projects-title": "Meine Projekte",
@@ -31,7 +31,7 @@
         },
         "section3": {
             "sectionTitle": "Meine Gruppenerfahrung",
-            "text": "In diesem Gruppenprojekt habe ich die Rolle des Teamleiters übernommen und war für die Strukturierung des Projekt-Workflows verantwortlich. Wir hielten tägliche Meetings ab, um unseren Fortschritt und auftretende Probleme zu besprechen. Dies half uns, Hindernisse schnell zu identifizieren und effektive Lösungen zu finden."
+            "text": "In diesem Gruppenprojekt habe ich die Rolle des Teamleiters übernommen und war für die Strukturierung des Projekt-Workflows verantwortlich. Wir haben tägliche Meetings abgehalten, um unseren Fortschritt und auftretende Probleme zu besprechen. Das hat uns geholfen, Herausforderungen frühzeitig zu erkennen und effektive Lösungen zu finden."
         },
         "duration": "Dauer: 3 Wochen"
     },
@@ -42,11 +42,11 @@
         },
         "section2": {
             "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Zuerst habe ich den Workflow basierend auf den User Stories im Spiel organisiert. Ich konzentrierte mich auf die Hauptfunktionen, arbeitete von außen nach innen und kümmerte mich später um kleinere Details. Während des gesamten Prozesses habe ich die 80/20-Regel beachtet, was mir half, meine Zeit effizient zu nutzen und die Frist problemlos einzuhalten."
+            "text": "Zuerst habe ich den Workflow basierend auf den User Stories des Spiels organisiert. Ich habe mich auf die Hauptfunktionen konzentriert, von außen nach innen gearbeitet und mich anschließend um kleinere Details gekümmert. Während des gesamten Prozesses habe ich die 80/20-Regel angewendet, was mir geholfen hat, meine Zeit effizient zu nutzen und die Frist mühelos einzuhalten."
         },
         "section3": {
             "sectionTitle": "Was ich gelernt habe",
-            "text": "Der herausforderndste Teil des Spiels war die Koordination der Animationen jedes beweglichen Objekts. Es war jedoch eine wertvolle Lernerfahrung, die mir beibrachte, wie man Animationen mit Timeouts implementiert und ein effektives Layout mit mehreren Elementen erstellt."
+            "text": "Die größte Herausforderung bei diesem Spiel war die Koordination der Animationen aller beweglichen Objekte. Es war eine großartige Erfahrung zu lernen, wie man Animationen mithilfe von Timeouts umsetzt und ein effektives Layout mit mehreren Elementen gestaltet."
         },
         "duration": "Dauer: 2 Wochen"
     },
@@ -57,7 +57,7 @@
         },
         "section2": {
             "sectionTitle": "Wie ich meinen Arbeitsprozess organisiert habe",
-            "text": "Zuerst suchte ich nach Inspiration für das Design und erstellte eine Skizze, wie die Seite aussehen sollte. Dann konzentrierte ich mich auf die Funktionalität, rief Daten von der PokeAPI ab und zeigte die relevanten Informationen auf der Webseite an. Schließlich konzentrierte ich mich auf das Styling."
+            "text": "Zuerst habe ich nach Inspiration für das Design gesucht und eine Skizze erstellt, wie die Seite aussehen sollte. Anschließend habe ich mich auf die Funktionalität konzentriert: das Abrufen der Daten von der PokeAPI und das Anzeigen der relevanten Informationen auf der Webseite. Zum Schluss habe ich das Layout mit CSS gestaltet."
         },
         "section3": {
             "sectionTitle": "Was ich gelernt habe",

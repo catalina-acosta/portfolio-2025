@@ -16,7 +16,7 @@
     "skills": {
         "title": "My Skills",
         "currentLearning": "What I am currently learning",
-        "currentlyLearningText": "",
+        "currentlyLearningText": "Mastering React is my next step toward building more dynamic and maintainable user interfaces.",
         "button": "Let's talk"
     },
     "projects-title": "My Projects",
