@@ -1,5 +1,6 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
-import {TranslateService, TranslatePipe} from "@ngx-translate/core";
+import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
+import { TranslateService, TranslatePipe, LangChangeEvent } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-about',
@@ -7,15 +8,41 @@ import {TranslateService, TranslatePipe} from "@ngx-translate/core";
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss'
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
+  private langChangeSubscription!: Subscription;
+  private typingTimeout: ReturnType<typeof setTimeout> | undefined; // Correctly typed timeout reference
+  private untypingTimeout: ReturnType<typeof setTimeout> | undefined;
 
   constructor(private translate: TranslateService) {}
 
   ngOnInit(): void {
+    this.langChangeSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.resetTypingAnimation(); 
+      this.startTypingAnimation();
+    });
   }
 
   ngAfterViewInit(): void {
     this.startTypingAnimation();
+  }
+
+  ngOnDestroy(): void {
+    if (this.langChangeSubscription) {
+      this.langChangeSubscription.unsubscribe();
+    }
+    this.resetTypingAnimation();
+  }
+
+  resetTypingAnimation(): void {
+    clearTimeout(this.typingTimeout);
+    clearTimeout(this.untypingTimeout);
+
+    const typingTextElement = document.getElementById('typing-text');
+    const typingTextElementBlue = document.getElementById('typing-text-blue');
+    const typingIcon = document.getElementById("typingIcon");
+    if (typingTextElement) typingTextElement.innerHTML = '';
+    if (typingTextElementBlue) typingTextElementBlue.innerHTML = '';
+    if (typingIcon) typingIcon.innerHTML = '';
   }
 
   startTypingAnimation(): void {
@@ -23,25 +50,25 @@ export class AboutComponent implements OnInit, AfterViewInit {
       const text = `${translations['about.typingText1']}|`;
       const typingTextElement = document.getElementById('typing-text');
       const typingTextElementBlue = document.getElementById('typing-text-blue');
-      // noch eine Span hinzufügen text white 
+      const typingIcon = document.getElementById("typingIcon");
+      this.resetTypingAnimation();
+
       let index = 0;
-      // typingTextElementBlue!.innerHTML += `<img class="icon-mobile" src="./assets/graphics/about/remote_mobile.svg" alt="">`
 
       const type = () => {
         if (index < 5) {
-          if(index == 0) {
-            typingTextElementBlue!.innerHTML += `<img class="icon-mobile" src="./assets/graphics/about/remote_mobile.svg" alt="">`;
+          if (index === 0) {
+            typingIcon!.innerHTML += `<img class="icon-desktop" src="./assets/graphics/about/Group 60.svg" alt="">`;
           }
           typingTextElementBlue!.innerHTML += text.charAt(index);
           index++;
-          setTimeout(type, 100);
-        }
-        else if (index >= 4 && index < text.length) { // else if this: 
+          this.typingTimeout = setTimeout(type, 100);
+        } else if (index >= 4 && index < text.length) {
           typingTextElement!.innerHTML += text.charAt(index);
           index++;
-          setTimeout(type, 100); // Adjust the speed of typing here
+          this.typingTimeout = setTimeout(type, 100);
         } else {
-          setTimeout(untype, 1000); // Start untyping after a delay
+          this.untypingTimeout = setTimeout(untype, 1000);
         }
       };
 
@@ -49,22 +76,18 @@ export class AboutComponent implements OnInit, AfterViewInit {
         if (index > 4) {
           typingTextElement!.innerHTML = typingTextElement!.innerHTML.slice(0, -1);
           index--;
-          setTimeout(untype, 100); // Adjust the speed of untyping here
-        } else if(index > 0) {
-          typingTextElementBlue!.innerHTML = typingTextElement!.innerHTML.slice(0, -1);
+          this.untypingTimeout = setTimeout(untype, 100);
+        } else if (index > 0) {
+          typingTextElementBlue!.innerHTML = typingTextElementBlue!.innerHTML.slice(0, -1);
           index--;
-          setTimeout(untype, 100); // Adjust the speed of untyping here
+          this.untypingTimeout = setTimeout(untype, 100);
+        } else {
+          typingIcon!.innerHTML = "";
+          this.typingTimeout = setTimeout(type, 1000);
         }
-        else {
-          setTimeout(type, 1000); // Start typing again after a delay
-        }
-      }
-      // typingTextElementBlue!.innerHTML = "";
+      };
+
       type();
     });
   }
 }
-function type() {
-  throw new Error('Function not implemented.');
-}
-
