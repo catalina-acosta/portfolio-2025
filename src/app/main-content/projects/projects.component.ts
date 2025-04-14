@@ -46,7 +46,7 @@ export class ProjectsComponent {
                     ],
       img: "./assets/img/join.png",
       github: "https://github.com/catalina-acosta/join", 
-      liveTest: "https://catalina-acosta-rivera.de/join"
+      liveTest: "https://join.catalina-acosta-rivera.de/"
     },
     {
       title: "Sharky",
