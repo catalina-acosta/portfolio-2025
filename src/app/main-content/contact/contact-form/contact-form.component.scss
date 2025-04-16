@@ -131,6 +131,11 @@ form {
             }
         }
     }
+    .btn-wrapper {
+        a {
+            z-index: 10;
+        }
+    }
     
 }
 

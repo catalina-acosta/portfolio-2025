@@ -9,8 +9,6 @@ import {
   TranslateDirective
 } from "@ngx-translate/core";
 
-
-
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, FooterComponent],

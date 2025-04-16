@@ -2,7 +2,7 @@
     <nav>
         <div class="closed-menu" (click)="toggleMenu()" >
             <img class="logo" src=".\assets\graphics\logo\Variant2.svg" alt="">
-            <img src="./assets/graphics/mobile/burger-menu.svg" alt="">
+            <img [src]=" isclicked ? './assets/graphics/mobile/close-menu.svg' : './assets/graphics/mobile/burger-menu.svg' " alt="menu-icon">
         </div>
         @if (isclicked) {
                 <div class="menu-overlay">
