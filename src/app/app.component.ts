@@ -8,6 +8,7 @@ import {
   TranslatePipe,
   TranslateDirective
 } from "@ngx-translate/core";
+// import "aos/dist/aos.css";
 
 @Component({
   selector: 'app-root',

@@ -48,6 +48,7 @@ export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
     if (typingTextElement) typingTextElement.innerHTML = '';
     if (typingTextElementBlue) typingTextElementBlue.innerHTML = '';
     if (typingIcon) typingIcon.innerHTML = '';
+    this.index = 0;
   }
 
   startTypingAnimation(): void {
