@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {TranslatePipe} from "@ngx-translate/core";
+import Aos from 'aos';
 
 @Component({
   selector: 'app-projects',
@@ -107,6 +108,9 @@ export class ProjectsComponent {
       liveTest: "https://catalina-acosta-rivera.de/pokedex",  
     }
   ];
+  constructor() {
+    Aos.init();
+  }
 
   setCurrentProject(index: number) {
     this.currentProject = index;

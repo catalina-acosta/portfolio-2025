@@ -96,6 +96,7 @@
             overflow-x: scroll;
             width: 80vw;
             justify-content: flex-start;
+            z-index: 10;
         }
 
         .references-wrapper {
@@ -127,6 +128,8 @@
 
             p {
                 font-size: 14px;
+                width: 220px;
+                max-width: 220px;
             }
         }
     }

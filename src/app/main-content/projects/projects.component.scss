@@ -139,7 +139,6 @@
 }
 
 @media screen and (max-width: 912px) {
-
     .project-menu {
         .project-menu-box {
 
@@ -268,6 +267,11 @@
         height: 167px;
         img {
             width: 300px;
+        }
+    }
+    .button-wrapper-mobile {
+        button {
+            margin: 0 4px;
         }
     }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
 import { TranslateService, TranslatePipe, LangChangeEvent } from '@ngx-translate/core';
+import Aos from 'aos';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -13,7 +14,9 @@ export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
   private typingTimeout: ReturnType<typeof setTimeout> | undefined; // Correctly typed timeout reference
   private untypingTimeout: ReturnType<typeof setTimeout> | undefined;
 
-  constructor(private translate: TranslateService) {}
+  constructor(private translate: TranslateService) {
+    Aos.init();
+  }
 
   ngOnInit(): void {
     this.langChangeSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -36,7 +39,6 @@ export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
   resetTypingAnimation(): void {
     clearTimeout(this.typingTimeout);
     clearTimeout(this.untypingTimeout);
-
     const typingTextElement = document.getElementById('typing-text');
     const typingTextElementBlue = document.getElementById('typing-text-blue');
     const typingIcon = document.getElementById("typingIcon");
@@ -51,19 +53,17 @@ export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
         const typingTextElement = document.getElementById('typing-text');
         const typingTextElementBlue = document.getElementById('typing-text-blue');
         const typingIcon = document.getElementById("typingIcon");
+
         let currentIndex = 0; // Track the current sentence being typed
+        let index = 0;
 
         const typeSentence = () => {
           if (currentIndex >= textsArray.length) {
             currentIndex = 0; // Restart the animation from the first sentence
           }
     
-          const text = textsArray[currentIndex];
-        
-        
+        const text = textsArray[currentIndex];
         this.resetTypingAnimation();
-  
-        let index = 0;
   
         const type = () => {
           if (index < 5) {
@@ -97,10 +97,8 @@ export class AboutComponent implements OnInit, AfterViewInit, OnDestroy {
             this.typingTimeout = setTimeout(typeSentence, 1000);
           }
         };
-  
         type();
       };
-
       typeSentence();
     });
   }

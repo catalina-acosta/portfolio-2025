@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {TranslatePipe} from "@ngx-translate/core";
+import Aos from 'aos';
 
 @Component({
   selector: 'app-references',
@@ -28,6 +29,10 @@ export class ReferencesComponent {
       hovered: false,
     },
   ];
+
+  constructor() {
+    Aos.init();
+  }
 
   toggleHovered(hoverStatus:  boolean, index: number) {
     this.refList[index].hovered = hoverStatus;
