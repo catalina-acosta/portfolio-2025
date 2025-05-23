@@ -152,6 +152,7 @@
     .container {
         gap: 36px;
         .img-container {
+            padding-top: 100px;
             .img-default-mobile {
                 display: block;
                 width: 280px;
@@ -174,4 +175,13 @@
         }
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        gap: 60px;
+        .img-container {
+            padding-top: 30px;
+        }
+    }
 }
